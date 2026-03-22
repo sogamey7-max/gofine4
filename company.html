@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>会社情報 | gofine合同会社</title>
+    <meta name="description" content="gofine合同会社の会社概要ページです。事業内容や、愛媛県新居浜市の所在地、運営体制などをご案内します。">
+    <meta name="keywords" content="gofine, gofine合同会社, 会社概要, 会社情報, 愛媛県, 新居浜市">
+    
+    <!-- OGP (SNSシェアや検索エンジンでの表示を最適化) -->
+    <meta property="og:site_name" content="gofine合同会社">
+    <meta property="og:title" content="会社情報 | gofine合同会社">
+    <meta property="og:description" content="gofine合同会社の会社概要ページです。事業内容や所在地についてご案内します。">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://sogamey7-max.github.io/gofine/company.html">
+    <meta name="format-detection" content="telephone=no">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="moving-bg"></div>
+
+    <header class="header" id="header">
+        <div class="header-inner">
+            <h1 class="logo"><a href="index.html">gofine</a></h1>
+            <nav class="nav">
+                <ul class="nav-list">
+                    <li><a href="index.html#business" class="nav-link">事業内容</a></li>
+                    <li><a href="index.html#vision" class="nav-link">代表の言葉</a></li>
+                    <li><a href="company.html" class="nav-link">会社情報</a></li>
+                    <li><a href="index.html#contact" class="nav-link">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main style="padding-top: 150px;">
+        <section class="section company">
+            <div class="section-container">
+                <div class="section-header reveal">
+                    <h2 class="section-title">Company</h2>
+                    <p class="section-subtitle">会社情報</p>
+                </div>
+                
+                <div class="company-wrapper glass-panel reveal active">
+                    <table class="company-table">
+                        <tbody>
+                            <tr>
+                                <th>会社名</th>
+                                <td>gofine合同会社</td>
+                            </tr>
+                            <tr>
+                                <th>代表者</th>
+                                <td>
+                                    <!-- 検索エンジン(Google等)に名前のテキストを紐付けさせないためのCanvas画像化処理 -->
+                                    <canvas id="rep-canvas" width="120" height="30" style="vertical-align: middle;"></canvas>
+                                    <script>
+                                        const canvas = document.getElementById('rep-canvas');
+                                        const ctx = canvas.getContext('2d');
+                                        // スマホなどの高解像度（Retina）ディスプレイでも文字がぼやけないようスケール調整
+                                        const scale = window.devicePixelRatio || 1;
+                                        canvas.width = 120 * scale;
+                                        canvas.height = 30 * scale;
+                                        canvas.style.width = "120px";
+                                        canvas.style.height = "30px";
+                                        ctx.scale(scale, scale);
+                                        
+                                        // テキストの描画設定 (周りのデザインと合わせたフォントスタイル)
+                                        ctx.font = "600 17.6px 'Inter', 'Noto Sans JP', sans-serif";
+                                        ctx.fillStyle = "#111115"; 
+                                        ctx.textBaseline = "middle";
+                                        ctx.fillText("十亀 侑矢", 0, 16);
+                                    </script>
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>所在地</th>
+                                <td>
+                                    〒792-0811<br>
+                                    愛媛県新居浜市中村松木2丁目2-42
+                                </td>
+                            </tr>
+                            <tr>
+                                <th>電話番号</th>
+                                <td><a href="tel:07084034010" class="tel-link">070-8403-4010</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+                <div class="map-wrapper reveal delay-1" style="margin-top: 50px; border-radius: 20px; overflow: hidden; box-shadow: 0 10px 30px rgba(0,0,0,0.03); width: 100%; max-width: 800px; margin-left: auto; margin-right: auto; height: 450px;">
+                    <iframe width="100%" height="100%" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?q=愛媛県新居浜市中村松木2丁目2-42&amp;hl=ja&amp;z=15&amp;output=embed"></iframe>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">gofine</div>
+            <p class="copyright">&copy; <span id="year"></span> gofine LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>
