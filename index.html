@@ -133,18 +133,18 @@
                     <p class="section-subtitle">お問い合わせ</p>
                 </div>
                 <div class="contact-wrapper glass-panel reveal">
-                    <form action="#" class="contact-form">
+                    <form action="https://formspree.io/f/xkoplbgb" method="POST" class="contact-form">
                         <div class="form-group">
                             <label for="name">お名前 / 会社名</label>
-                            <input type="text" id="name" class="form-input" placeholder="例：山田 太郎 / 株式会社サンプル" required>
+                            <input type="text" id="name" name="name" class="form-input" placeholder="例：山田 太郎 / 株式会社サンプル" required>
                         </div>
                         <div class="form-group">
                             <label for="email">メールアドレス</label>
-                            <input type="email" id="email" class="form-input" placeholder="例：info@example.com" required>
+                            <input type="email" id="email" name="email" class="form-input" placeholder="例：info@example.com" required>
                         </div>
                         <div class="form-group">
                             <label for="message">お問い合わせ内容</label>
-                            <textarea id="message" class="form-textarea" placeholder="ご相談やご質問をご記入ください" required></textarea>
+                            <textarea id="message" name="message" class="form-textarea" placeholder="ご相談やご質問をご記入ください" required></textarea>
                         </div>
                         <button type="submit" class="btn-submit">送信する</button>
                     </form>
