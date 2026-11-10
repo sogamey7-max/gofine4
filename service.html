@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>事業内容 | gofine合同会社｜SNSマーケティング支援・TikTok Shop EC事業支援</title>
+    <meta name="description" content="gofine合同会社の事業内容。SNS戦略の立案から運用・分析・改善までのSNSマーケティング支援と、TikTokオークションに特化したTikTok Shop EC事業支援を行っています。">
+    <link rel="canonical" href="https://goesfine.com/service.html">
+    <meta property="og:site_name" content="gofine合同会社">
+    <meta property="og:title" content="事業内容 | gofine合同会社">
+    <meta property="og:description" content="SNSマーケティング支援と、TikTokオークションに特化したEC事業支援。">
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://goesfine.com/service.html">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <style>
+      /* ---- Index chips under hero ---- */
+      .svc-jump { display: flex; justify-content: center; gap: 12px; flex-wrap: wrap; margin-top: 34px; opacity: 0; animation: phFade .9s .7s var(--ease-out-expo) forwards; }
+      .svc-jump a { display: inline-flex; align-items: center; gap: 10px; padding: 12px 22px; border-radius: 100px; background: #fff; border: 1px solid #e3eaf6; font-size: .88rem; font-weight: 700; box-shadow: 0 8px 20px rgba(11,26,64,.05); transition: border-color .3s, transform .3s; }
+      .svc-jump a:hover { opacity: 1; border-color: var(--c-primary); transform: translateY(-2px); }
+      .svc-jump b { font-family: var(--font-en); color: var(--c-primary); font-size: .78rem; }
+
+      /* ---- Service detail blocks ---- */
+      .svc-detail { position: relative; overflow: hidden; isolation: isolate; padding: 120px 0; }
+      .svc-detail.is-white { background: #fff; }
+      .svc-detail.is-gray { background-color: #f1f4f9; background-image: radial-gradient(rgba(0, 82, 255, .08) 1px, transparent 1.2px); background-size: 26px 26px; }
+      .svc-detail::before { content: attr(data-bg); position: absolute; top: 50px; font-family: var(--font-en); font-weight: 900; font-size: clamp(5rem, 13vw, 12rem); line-height: 1; letter-spacing: -.05em; color: rgba(0, 82, 255, .04); z-index: -1; pointer-events: none; white-space: nowrap; }
+      .svc-detail.is-white::before { right: -1%; }
+      .svc-detail.is-gray::before { left: -1%; }
+      .sd-grid { display: grid; grid-template-columns: 1.05fr 1fr; gap: 64px; align-items: center; }
+      .svc-detail.is-gray .sd-visual { order: 2; }
+      .sd-visual { position: relative; }
+      .sd-visual .frame { border-radius: 28px; overflow: hidden; aspect-ratio: 800 / 460; box-shadow: 0 30px 70px rgba(11, 26, 64, .12); border: 1px solid rgba(255,255,255,.8); }
+      .sd-visual svg.card-image { display: block; width: 100%; height: 100%; }
+      .sd-visual::before { content: ""; position: absolute; inset: -18px -18px auto auto; width: 120px; height: 120px; border-top: 2px solid var(--c-primary); border-right: 2px solid var(--c-primary); border-radius: 0 28px 0 0; opacity: .35; }
+      .svc-detail.is-gray .sd-visual::before { inset: -18px auto auto -18px; border-right: 0; border-left: 2px solid var(--c-primary); border-radius: 28px 0 0 0; }
+      .sd-num { display: flex; align-items: center; gap: 14px; font-family: var(--font-en); font-size: .8rem; font-weight: 800; letter-spacing: .26em; color: var(--c-primary); margin-bottom: 14px; }
+      .sd-num::after { content: ""; width: 42px; height: 2px; background: var(--gradient-accent); }
+      .sd-title { font-family: var(--font-sans); font-size: clamp(1.6rem, 3vw, 2.2rem); font-weight: 700; line-height: 1.45; margin-bottom: 6px; }
+      .sd-en { font-family: var(--font-en); font-size: .74rem; font-weight: 700; letter-spacing: .22em; color: var(--c-text-light); margin-bottom: 24px; }
+      .sd-text { color: #4a4a58; line-height: 2.05; margin-bottom: 30px; }
+      .sd-sub { font-size: .8rem; font-weight: 800; letter-spacing: .14em; color: var(--c-text); margin-bottom: 14px; display: flex; align-items: center; gap: 10px; }
+      .sd-sub::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--c-primary); }
+      .sd-list { display: grid; gap: 10px; }
+      .sd-list li { display: flex; align-items: flex-start; gap: 14px; padding: 15px 18px; background: rgba(255,255,255,.85); border: 1px solid #e6ebf3; border-radius: 14px; font-weight: 600; font-size: .95rem; line-height: 1.6; transition: transform .4s var(--ease-out-expo), border-color .4s; }
+      .sd-list li:hover { transform: translateX(4px); border-color: rgba(0,82,255,.3); }
+      .sd-list .ck { flex: none; width: 24px; height: 24px; border-radius: 50%; display: grid; place-items: center; background: var(--gradient-accent); color: #fff; margin-top: 1px; }
+      .sd-list small { display: block; font-size: .8rem; font-weight: 500; color: var(--c-text-light); margin-top: 2px; }
+      .sd-list.active li { animation: liIn .7s var(--ease-out-expo) both; }
+      .sd-list.active li:nth-child(2) { animation-delay: .08s; } .sd-list.active li:nth-child(3) { animation-delay: .16s; } .sd-list.active li:nth-child(4) { animation-delay: .24s; } .sd-list.active li:nth-child(5) { animation-delay: .32s; }
+      @keyframes liIn { from { opacity: 0; transform: translateX(-14px); } to { opacity: 1; transform: none; } }
+      .sd-list.reveal { transform: none; opacity: 1; }
+      .sd-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 22px; }
+      .sd-tags li { font-size: .76rem; font-weight: 700; color: #3b4a66; background: #eef2f8; padding: 6px 12px; border-radius: 100px; }
+      .sd-cta { margin-top: 30px; }
+
+      /* card illustration motion */
+      .sd-visual g[filter]:not([transform]) { animation: svgFloat 6s ease-in-out infinite; }
+      .sd-visual g[filter]:not([transform]):nth-of-type(2n) { animation-delay: -2s; }
+      .sd-visual g[filter]:not([transform]):nth-of-type(3n) { animation-delay: -4s; animation-duration: 7s; }
+      @keyframes svgFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .sd-visual g[fill="#fe2c55"] { animation: heartsUp 3.2s ease-in-out infinite; }
+      @keyframes heartsUp { 0% { transform: translateY(10px); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(-36px); opacity: 0; } }
+      .sd-visual rect[x="328"][y="60"] { animation: blink 1.4s infinite; }
+      @keyframes blink { 50% { opacity: .25; } }
+
+      /* ---- Flow ---- */
+      .flow-sec { background: #fff; color: var(--c-text); padding: 120px 0; position: relative; overflow: hidden; isolation: isolate; }
+      .flow-sec::before { content: ""; position: absolute; inset: 0; z-index: -1; background-image: linear-gradient(rgba(0,82,255,.06) 1px, transparent 1px), linear-gradient(90deg, rgba(0,82,255,.06) 1px, transparent 1px); background-size: 72px 72px; -webkit-mask-image: radial-gradient(70% 70% at 50% 50%, #000 30%, transparent 80%); mask-image: radial-gradient(70% 70% at 50% 50%, #000 30%, transparent 80%); }
+      .flow-sec::after { content: ""; position: absolute; width: 560px; height: 560px; left: -160px; top: -200px; border-radius: 50%; background: rgba(43,193,255,.16); filter: blur(100px); z-index: -1; }
+      .flow-head { text-align: center; margin-bottom: 64px; }
+      .flow-head .lbl { font-family: var(--font-en); font-size: .78rem; font-weight: 800; letter-spacing: .3em; color: var(--c-primary); margin-bottom: 14px; }
+      .flow-head h2 { font-family: var(--font-en); font-size: clamp(2.3rem, 5vw, 3.4rem); font-weight: 800; letter-spacing: -.04em; line-height: 1.1; }
+      .flow-head p { color: var(--c-text-light); font-weight: 700; letter-spacing: .2em; font-size: .9rem; margin-top: 10px; }
+      .flow-list { display: grid; grid-template-columns: repeat(5, 1fr); gap: 16px; position: relative; counter-reset: f; }
+      .flow-list::before { content: ""; position: absolute; left: 10%; right: 10%; top: 34px; height: 2px; background: #e3e9f3; }
+      .flow-list::after { content: ""; position: absolute; left: 10%; right: 10%; top: 34px; height: 2px; background: linear-gradient(90deg, #0052ff, #2bc1ff); transform: scaleX(0); transform-origin: left; transition: transform 2s .3s var(--ease-out-expo); }
+      .flow-list.active::after { transform: scaleX(1); }
+      .flow-list.reveal { transform: none; }
+      .flow-item { position: relative; text-align: center; padding: 0 6px; }
+      .flow-dot { position: relative; z-index: 1; width: 70px; height: 70px; margin: 0 auto 22px; border-radius: 50%; display: grid; place-items: center; background: #fff; border: 1px solid #d6e2f5; box-shadow: 0 0 0 6px #fff, 0 12px 30px rgba(0,82,255,.12); color: var(--c-primary); }
+      .flow-step { font-family: var(--font-en); font-size: .7rem; font-weight: 800; letter-spacing: .2em; color: var(--c-primary); margin-bottom: 6px; }
+      .flow-item h3 { font-family: var(--font-sans); font-size: 1.05rem; font-weight: 700; margin-bottom: 8px; }
+      .flow-item p { font-size: .84rem; line-height: 1.85; color: var(--c-text-light); }
+
+      @media (max-width: 1024px) {
+        .sd-grid { grid-template-columns: 1fr; gap: 44px; }
+        .svc-detail.is-gray .sd-visual { order: 0; }
+        .flow-list { grid-template-columns: 1fr; gap: 0; max-width: 520px; margin: 0 auto; }
+        .flow-list::before, .flow-list::after { left: 34px; right: auto; top: 20px; bottom: 20px; width: 2px; height: auto; }
+        .flow-list::after { transform: scaleY(0); transform-origin: top; }
+        .flow-list.active::after { transform: scaleY(1); }
+        .flow-item { display: grid; grid-template-columns: 70px 1fr; gap: 20px; text-align: left; padding: 0 0 28px; }
+        .flow-dot { margin: 0; }
+      }
+      @media (max-width: 768px) {
+        .svc-detail, .flow-sec { padding: 80px 0; }
+        .sd-visual::before { display: none; }
+        .sd-visual .frame { border-radius: 20px; }
+        .sd-list li { padding: 13px 14px; font-size: .9rem; }
+      }
+    </style>
+</head>
+<body>
+    <div id="moving-bg"></div>
+
+    <header class="header" id="header">
+        <div class="header-inner">
+            <div class="logo"><a href="index.html">gofine</a></div>
+            <button class="menu-btn" id="menu-btn" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
+            <nav class="gnav" id="gnav" aria-label="メインメニュー">
+                <ul class="gnav-list">
+                    <li><a href="service.html" class="nav-link" aria-current="page">事業内容</a></li>
+                    <li><a href="message.html" class="nav-link">代表の言葉</a></li>
+                    <li><a href="company.html" class="nav-link">会社概要</a></li>
+                    <li><a href="index.html#contact" class="nav-link is-cta">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <section class="page-hero">
+            <div class="ph-orb o1" aria-hidden="true"></div>
+            <div class="ph-orb o2" aria-hidden="true"></div>
+            <canvas class="net-canvas" data-tone="light" aria-hidden="true"></canvas>
+            <div class="container">
+                <p class="crumb"><a href="index.html">TOP</a><span>/</span>事業内容</p>
+                <p class="ph-label">SERVICE</p>
+                <h1 class="ph-title"><span>Service</span></h1>
+                <p class="ph-ja">事業内容</p>
+                <p class="ph-lead">SNSとEC、2つの領域から事業の成長を支援します。<br>戦略づくりで終わらず、実行・改善まで一貫して伴走します。</p>
+                <div class="svc-jump">
+                    <a href="#sns"><b>01</b>SNSマーケティング支援</a>
+                    <a href="#ec"><b>02</b>EC事業支援</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- 01 SNS -->
+        <section class="svc-detail is-white" id="sns" data-bg="SNS">
+            <div class="container">
+                <div class="sd-grid">
+                    <div class="sd-visual reveal"><div class="frame">
+<svg class="card-image" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid meet" style="background:linear-gradient(135deg,#eaf2ff,#fbf0f7)" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TikTokとInstagramを活用したSNSマーケティング支援">
+  <defs>
+    <linearGradient id="sns-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf2ff"/><stop offset="1" stop-color="#fbf0f7"/></linearGradient>
+    <radialGradient id="sns-ig" cx=".3" cy="1.05" r="1.25"><stop offset="0" stop-color="#feda75"/><stop offset=".25" stop-color="#fa7e1e"/><stop offset=".5" stop-color="#d62976"/><stop offset=".75" stop-color="#962fbf"/><stop offset="1" stop-color="#4f5bd5"/></radialGradient>
+    <linearGradient id="sns-bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#0052ff"/><stop offset="1" stop-color="#2bc1ff"/></linearGradient>
+    <filter id="sns-sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b2a6b" flood-opacity=".16"/></filter>
+    <path id="sns-tt" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+  </defs>
+  <rect width="800" height="460" fill="url(#sns-bg)"/>
+  <circle cx="110" cy="400" r="150" fill="#2bc1ff" opacity=".10"/>
+  <circle cx="720" cy="60" r="140" fill="#d62976" opacity=".08"/>
+  <g fill="none" stroke="#0052ff" stroke-opacity=".18" stroke-width="2" stroke-dasharray="4 8">
+    <path d="M210 120 C 250 150, 260 170, 262 190"/><path d="M600 150 C 560 160, 545 175, 540 195"/><path d="M400 340 L 400 318"/>
+  </g>
+  <!-- TikTok app icon -->
+  <g filter="url(#sns-sh)">
+    <rect x="232" y="150" width="160" height="160" rx="38" fill="#111"/>
+    <g transform="translate(266 184) scale(3.9)">
+      <use href="#sns-tt" fill="#25F4EE" transform="translate(-.7 -.7)"/>
+      <use href="#sns-tt" fill="#FE2C55" transform="translate(.7 .7)"/>
+      <use href="#sns-tt" fill="#fff"/>
+    </g>
+  </g>
+  <!-- Instagram app icon -->
+  <g filter="url(#sns-sh)">
+    <rect x="410" y="150" width="160" height="160" rx="38" fill="url(#sns-ig)"/>
+    <rect x="446" y="186" width="88" height="88" rx="26" fill="none" stroke="#fff" stroke-width="10"/>
+    <circle cx="490" cy="230" r="21" fill="none" stroke="#fff" stroke-width="10"/>
+    <circle cx="516" cy="204" r="6.5" fill="#fff"/>
+  </g>
+  <!-- likes card -->
+  <g filter="url(#sns-sh)">
+    <rect x="48" y="58" width="176" height="74" rx="18" fill="#fff"/>
+    <circle cx="86" cy="95" r="20" fill="#fff0f3"/>
+    <path d="M86 106c-10-7-15-12-15-18 0-4 3-7 7-7 3 0 6 2 8 5 2-3 5-5 8-5 4 0 7 3 7 7 0 6-5 11-15 18z" fill="#fe2c55"/>
+    <text x="116" y="92" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#16161d">12.4K</text>
+    <text x="116" y="115" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">いいね</text>
+  </g>
+  <!-- followers card -->
+  <g filter="url(#sns-sh)">
+    <rect x="590" y="96" width="172" height="104" rx="18" fill="#fff"/>
+    <text x="608" y="124" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">フォロワー</text>
+    <text x="608" y="152" font-family="Inter,sans-serif" font-size="24" font-weight="800" fill="#0052ff">+3,280</text>
+    <path d="M610 186 L640 176 L664 180 L692 164 L720 166 L744 146" fill="none" stroke="#2bc1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M734 144 L746 145 L744 157" fill="none" stroke="#2bc1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- views chart card -->
+  <g filter="url(#sns-sh)">
+    <rect x="282" y="338" width="236" height="96" rx="18" fill="#fff"/>
+    <text x="300" y="366" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">再生数</text>
+    <text x="300" y="396" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#16161d">▲ 248%</text>
+    <g fill="url(#sns-bar)"><rect x="410" y="398" width="14" height="22" rx="4"/><rect x="430" y="388" width="14" height="32" rx="4"/><rect x="450" y="376" width="14" height="44" rx="4"/><rect x="470" y="362" width="14" height="58" rx="4"/><rect x="490" y="350" width="14" height="70" rx="4"/></g>
+  </g>
+  <!-- comment bubbles -->
+  <g filter="url(#sns-sh)">
+    <rect x="56" y="250" width="150" height="44" rx="22" fill="#fff"/>
+    <text x="131" y="278" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d" text-anchor="middle">保存しました！</text>
+    <rect x="80" y="310" width="132" height="44" rx="22" fill="#0052ff"/>
+    <text x="146" y="338" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">シェア 1,520</text>
+  </g>
+  <!-- floating hearts -->
+  <g fill="#fe2c55">
+    <path transform="translate(640 270) scale(1.3)" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+    <path transform="translate(700 320) scale(.9)" opacity=".7" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+    <path transform="translate(668 370) scale(.65)" opacity=".45" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+  </g>
+</svg>
+                    </div></div>
+                    <div class="sd-body reveal delay-1">
+                        <p class="sd-num">SERVICE 01</p>
+                        <h2 class="sd-title">SNSマーケティング支援</h2>
+                        <p class="sd-en">SNS MARKETING SUPPORT</p>
+                        <p class="sd-text">企業の課題や目標に合わせたSNS戦略の立案から、運用・分析・改善までを一貫して支援。SNSを通じた認知拡大と事業成長をサポートします。</p>
+                        <p class="sd-sub">主な支援内容</p>
+                        <ul class="sd-list reveal">
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>SNS戦略の立案<small>目標・ターゲットに合わせた方針づくり</small></span></li>
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>アカウント運用・投稿企画<small>TikTok・Instagramの日々の運用をサポート</small></span></li>
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>数値分析・改善提案<small>結果を振り返り、次の打ち手へつなげる</small></span></li>
+                        </ul>
+                        <ul class="sd-tags"><li>TikTok</li><li>Instagram</li><li>認知拡大</li><li>運用代行・伴走</li></ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- 02 EC -->
+        <section class="svc-detail is-gray" id="ec" data-bg="E-COMMERCE">
+            <div class="container">
+                <div class="sd-grid">
+                    <div class="sd-visual reveal"><div class="frame">
+<svg class="card-image" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid meet" style="background:#f4f6fa" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TikTok ShopのLIVEオークションを活用したEC事業支援">
+  <defs>
+    <linearGradient id="ec-holo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe259"/><stop offset=".35" stop-color="#ff7eb3"/><stop offset=".7" stop-color="#7afcff"/><stop offset="1" stop-color="#a18cd1"/></linearGradient>
+    <linearGradient id="ec-screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2335"/><stop offset="1" stop-color="#2c3150"/></linearGradient>
+    <filter id="ec-sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b1a40" flood-opacity=".2"/></filter>
+    <path id="ec-tt" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+    <g id="ec-logo">
+      <use href="#ec-tt" fill="#25F4EE" transform="translate(-.8 -.8)"/>
+      <use href="#ec-tt" fill="#FE2C55" transform="translate(.8 .8)"/>
+      <use href="#ec-tt" fill="#111"/>
+    </g>
+  </defs>
+  <!-- background with TikTok-color stripes -->
+  <rect width="800" height="460" fill="#f4f6fa"/>
+  <path d="M0 0 H150 L40 460 H0 Z" fill="#fff"/>
+  <path d="M150 0 H210 L100 460 H40 Z" fill="#25f4ee"/>
+  <path d="M700 0 H800 V460 H590 Z" fill="#fe2c55"/>
+  <rect x="610" y="30" width="70" height="70" rx="8" fill="#e9ecf2"/>
+  <rect x="240" y="380" width="54" height="54" rx="8" fill="#e9ecf2"/>
+
+  <!-- phone -->
+  <g transform="rotate(-6 400 240)" filter="url(#ec-sh)">
+    <rect x="305" y="22" width="196" height="410" rx="34" fill="#111"/>
+    <rect x="314" y="31" width="178" height="392" rx="27" fill="url(#ec-screen)"/>
+    <rect x="370" y="38" width="66" height="10" rx="5" fill="#111"/>
+    <rect x="328" y="60" width="42" height="18" rx="4" fill="#fe2c55"/>
+    <text x="349" y="73.5" font-family="Inter,sans-serif" font-size="11" font-weight="800" fill="#fff" text-anchor="middle">LIVE</text>
+    <text x="380" y="73.5" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#fff" opacity=".8">2,846 watching</text>
+    <!-- card on stage -->
+    <g transform="translate(366 96)">
+      <rect width="74" height="104" rx="6" fill="#fff" stroke="#e2c044" stroke-width="2.4"/>
+      <rect x="5" y="5" width="64" height="94" rx="4" fill="#fdf6d8"/>
+      <rect x="10" y="14" width="54" height="38" rx="3" fill="url(#ec-holo)"/>
+      <path d="M37 19l4 8.3 9.1 1.3-6.6 6.4 1.6 9-8.1-4.3-8.1 4.3 1.6-9-6.6-6.4 9.1-1.3z" fill="#fff" opacity=".9"/>
+      <rect x="10" y="8" width="30" height="3.5" rx="1.7" fill="#d9b23a"/>
+      <rect x="10" y="60" width="54" height="4" rx="2" fill="#e8dcae"/><rect x="10" y="68" width="42" height="4" rx="2" fill="#e8dcae"/><rect x="10" y="76" width="48" height="4" rx="2" fill="#e8dcae"/>
+      <rect x="10" y="87" width="18" height="6" rx="3" fill="#fe2c55"/>
+    </g>
+    <!-- comments -->
+    <rect x="326" y="226" width="110" height="20" rx="10" fill="#fff" fill-opacity=".16"/>
+    <text x="336" y="240" font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700" fill="#fff">状態めっちゃ綺麗！</text>
+    <rect x="326" y="252" width="96" height="20" rx="10" fill="#fff" fill-opacity=".16"/>
+    <text x="336" y="266" font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700" fill="#fff">入札しました🔥</text>
+    <!-- auction panel -->
+    <rect x="324" y="286" width="158" height="124" rx="16" fill="#fff"/>
+    <text x="338" y="308" font-family="Noto Sans JP,sans-serif" font-size="10" font-weight="700" fill="#6a6a7c">現在の最高入札額</text>
+    <text x="468" y="308" font-family="Noto Sans JP,sans-serif" font-size="10" font-weight="700" fill="#6a6a7c" text-anchor="end">残り</text>
+    <text x="338" y="338" font-family="Inter,sans-serif" font-size="25" font-weight="800" fill="#16161d">¥48,500</text>
+    <text x="468" y="336" font-family="Inter,sans-serif" font-size="16" font-weight="800" fill="#fe2c55" text-anchor="end">0:12</text>
+    <rect x="338" y="350" width="130" height="5" rx="2.5" fill="#f0f1f5"/>
+    <rect x="338" y="350" width="40" height="5" rx="2.5" fill="#fe2c55"/>
+    <rect x="338" y="366" width="130" height="32" rx="10" fill="#fe2c55"/>
+    <text x="403" y="387" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">入札する</text>
+  </g>
+
+  <!-- TikTok Shop badge -->
+  <g filter="url(#ec-sh)">
+    <rect x="44" y="52" width="210" height="60" rx="30" fill="#fff"/>
+    <g transform="translate(64 66) scale(1.35)"><use href="#ec-logo"/></g>
+    <text x="104" y="91" font-family="Inter,sans-serif" font-size="21" font-weight="900" fill="#111">TikTok Shop</text>
+  </g>
+  <text x="58" y="146" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#111" letter-spacing="2">LIVE AUCTION</text>
+  <rect x="58" y="154" width="128" height="4" rx="2" fill="#fe2c55"/>
+
+  <!-- luxury bag card -->
+  <g filter="url(#ec-sh)">
+    <rect x="76" y="236" width="170" height="164" rx="20" fill="#fff"/>
+    <path d="M131 290c0-18 12-28 30-28s30 10 30 28" fill="none" stroke="#5a3b22" stroke-width="5" stroke-linecap="round"/>
+    <path d="M104 292h114l9 72H95z" fill="#8b5a33"/>
+    <path d="M104 292h114l4 26H100z" fill="#7a4d2a"/>
+    <rect x="152" y="312" width="18" height="14" rx="3" fill="#e8c76a" stroke="#b8932f" stroke-width="1.5"/>
+    <g fill="#c9925d" opacity=".55"><circle cx="118" cy="340" r="2.4"/><circle cx="138" cy="350" r="2.4"/><circle cx="184" cy="350" r="2.4"/><circle cx="204" cy="340" r="2.4"/><circle cx="161" cy="352" r="2.4"/></g>
+    <text x="161" y="388" font-family="Inter,sans-serif" font-size="17" font-weight="800" fill="#16161d" text-anchor="middle">¥286,000</text>
+  </g>
+
+  <!-- bid notifications -->
+  <g filter="url(#ec-sh)">
+    <rect x="548" y="128" width="196" height="46" rx="23" fill="#fff"/>
+    <circle cx="573" cy="151" r="13" fill="#2bc1ff"/>
+    <text x="594" y="156" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d">+500 入札しました</text>
+    <rect x="566" y="186" width="178" height="46" rx="23" fill="#fff"/>
+    <circle cx="591" cy="209" r="13" fill="#a18cd1"/>
+    <text x="612" y="214" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d">+1,000 入札！</text>
+  </g>
+  <!-- sold badge -->
+  <g filter="url(#ec-sh)" transform="rotate(6 650 318)">
+    <rect x="556" y="270" width="190" height="96" rx="20" fill="#fff"/>
+    <text x="651" y="306" font-family="Noto Sans JP,sans-serif" font-size="16" font-weight="900" fill="#fe2c55" text-anchor="middle">落札！</text>
+    <text x="651" y="344" font-family="Inter,sans-serif" font-size="30" font-weight="900" fill="#16161d" text-anchor="middle">¥52,000</text>
+  </g>
+  <!-- shopping bag icon -->
+  <g filter="url(#ec-sh)">
+    <path d="M612 392h64l-6 52h-52z" fill="#111"/>
+    <path d="M628 392c0-12 6-18 16-18s16 6 16 18" fill="none" stroke="#111" stroke-width="5"/>
+    <g transform="translate(633 405) scale(.95)"><use href="#ec-tt" fill="#25F4EE" transform="translate(-.8 -.8)"/><use href="#ec-tt" fill="#FE2C55" transform="translate(.8 .8)"/><use href="#ec-tt" fill="#fff"/></g>
+  </g>
+</svg>
+                    </div></div>
+                    <div class="sd-body reveal delay-1">
+                        <p class="sd-num">SERVICE 02</p>
+                        <h2 class="sd-title">EC事業支援</h2>
+                        <p class="sd-en">E-COMMERCE SUPPORT</p>
+                        <p class="sd-text">TikTok Shopの中でも、特に「TikTokオークション」に注力。オークション機能の導入準備から、出品・配信の戦略設計、ライブコマースの運用まで一貫して支援し、新たな販売チャネルでの売上拡大を実現します。</p>
+                        <p class="sd-sub">主な支援内容</p>
+                        <ul class="sd-list reveal">
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>TikTokオークション（LIVEオークション）の導入支援<small>AM（担当者）がいない店舗もご相談ください</small></span></li>
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>古物商許可証の取得サポート<small>申請から許可まで、一緒に進めます</small></span></li>
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>出品・配信の戦略設計<small>商材に合わせた売り方・見せ方づくり</small></span></li>
+                            <li><span class="ck"><svg width="12" height="12" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg></span><span>ライブコマースの運用サポート<small>配信の改善まで継続して伴走</small></span></li>
+                        </ul>
+                        <ul class="sd-tags"><li>TikTok Shop</li><li>LIVEオークション</li><li>トレカ・ポケカ</li><li>ハイブランド品</li></ul>
+                        <div class="sd-cta"><a href="live-auction.html" class="btn-primary">TikTokオークション支援の詳細<span class="arw" aria-hidden="true">→</span></a></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Flow -->
+        <section class="flow-sec">
+            <div class="container">
+                <div class="flow-head reveal">
+                    <p class="lbl">FLOW</p>
+                    <h2>Support Flow</h2>
+                    <p>ご支援の流れ</p>
+                </div>
+                <ol class="flow-list reveal">
+                    <li class="flow-item"><div class="flow-dot"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 4h16v12H5.2L4 17.2z"/><path d="M8 9h8M8 12h5"/></svg></div><div><p class="flow-step">STEP 01</p><h3>お問い合わせ</h3><p>フォームから、現在の状況やお悩みをお送りください。</p></div></li>
+                    <li class="flow-item"><div class="flow-dot"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><circle cx="9" cy="8" r="3.5"/><path d="M2.5 20c.8-3.6 3.4-5.5 6.5-5.5s5.7 1.9 6.5 5.5"/><path d="M16 4.5a3.5 3.5 0 0 1 0 7M18 14.8c1.9.7 3.1 2.4 3.5 5.2"/></svg></div><div><p class="flow-step">STEP 02</p><h3>ヒアリング</h3><p>目標や商材、体制を伺い、課題を整理します。</p></div></li>
+                    <li class="flow-item"><div class="flow-dot"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M14 3H6a1 1 0 0 0-1 1v16a1 1 0 0 0 1 1h12a1 1 0 0 0 1-1V8z"/><path d="M14 3v5h5M9 13h6M9 17h4"/></svg></div><div><p class="flow-step">STEP 03</p><h3>ご提案</h3><p>状況に合わせた戦略と進め方をご提案します。</p></div></li>
+                    <li class="flow-item"><div class="flow-dot"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M5 19c1.5-5 4-9 9-13 1.6-1.2 3.5-2 5-2 0 1.5-.8 3.4-2 5-4 5-8 7.5-13 9z"/><path d="M9 15l-2-2M14 9.5a1.5 1.5 0 1 0 0 .01"/></svg></div><div><p class="flow-step">STEP 04</p><h3>実行・運用開始</h3><p>準備から運用まで、実務に寄り添って進めます。</p></div></li>
+                    <li class="flow-item"><div class="flow-dot"><svg width="26" height="26" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 17l6-6 4 4 8-8"/><path d="M14 7h7v7"/></svg></div><div><p class="flow-step">STEP 05</p><h3>分析・改善</h3><p>結果を振り返り、成果につながる改善を続けます。</p></div></li>
+                </ol>
+            </div>
+        </section>
+
+        <section class="cta">
+            <div class="container reveal">
+                <p class="cta-en">CONTACT</p>
+                <h2>TikTok Shop・SNS運用のご相談は<br>お気軽にどうぞ。</h2>
+                <p>ご相談内容をお伺いし、最適な進め方をご提案します。</p>
+                <a href="index.html#contact" class="btn-primary">お問い合わせ<span class="arw" aria-hidden="true">→</span></a>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">gofine</div>
+            <nav class="footer-nav" aria-label="フッターメニュー">
+                <a href="service.html">事業内容</a><a href="message.html">代表の言葉</a><a href="company.html">会社概要</a><a href="index.html#contact">お問い合わせ</a>
+            </nav>
+            <p class="copyright">&copy; gofine LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+</body>
+</html>

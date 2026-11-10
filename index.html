@@ -1,0 +1,936 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="google-site-verification" content="UDKNCWN2KyGXDwbFuhFHG0pwMyEujjpfBL1VPwRaZSE" />
+    <meta name="google-site-verification" content="NNANAWR6zyjS0aEvVz_wiGOoqeRWvYT4BZ2GiFHv40o" />
+    <title>gofine合同会社 | SNSマーケティング支援・TikTok Shop EC事業支援</title>
+    <meta name="description" content="gofine合同会社は、SNSマーケティング支援と、TikTokオークションに特化したTikTok Shop EC事業支援を行う会社です。戦略立案から運用・改善まで一貫して伴走します。愛媛県新居浜市から全国対応。">
+    <link rel="canonical" href="https://goesfine.com/">
+    <meta property="og:site_name" content="gofine合同会社">
+    <meta property="og:title" content="gofine合同会社 | SNSマーケティング支援・TikTok Shop EC事業支援">
+    <meta property="og:description" content="その可能性に、新しい答えを。SNSマーケティング支援と、TikTokオークションに特化したEC事業支援で、事業の成長をともに創ります。">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://goesfine.com/">
+    <meta name="format-detection" content="telephone=no">
+    <link rel="icon" type="image/png" href="favicon.png">
+    <link rel="apple-touch-icon" href="favicon.png">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&family=Noto+Sans+JP:wght@300;400;500;600;700&family=Shippori+Mincho:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "Organization",
+      "name": "gofine合同会社",
+      "alternateName": "gofine LLC",
+      "url": "https://goesfine.com/",
+      "logo": "https://goesfine.com/favicon.png",
+      "foundingDate": "2025-11-19",
+      "telephone": "+81-70-8403-4010",
+      "address": { "@type": "PostalAddress", "postalCode": "792-0041", "addressRegion": "愛媛県", "addressLocality": "新居浜市", "streetAddress": "中村松木2丁目2-42", "addressCountry": "JP" }
+    }
+    </script>
+    <style>
+      /* ================= トップページ専用 ================= */
+      .container { max-width: 1160px; margin: 0 auto; padding: 0 5%; }
+      .sec { position: relative; padding: 130px 0; overflow: hidden; isolation: isolate; }
+
+      /* ---- Section heading (shared on this page) ---- */
+      .sec-head { text-align: center; margin-bottom: 64px; }
+      .sec-label { display: inline-flex; align-items: center; gap: 14px; font-family: var(--font-en); font-size: .78rem; font-weight: 800; letter-spacing: .3em; color: var(--c-primary); margin-bottom: 18px; }
+      .sec-label .num { font-variant-numeric: tabular-nums; }
+      .sec-label .bar { width: 0; height: 2px; background: var(--gradient-accent); border-radius: 2px; transition: width 1s .2s var(--ease-out-expo); }
+      .sec-head.active .sec-label .bar { width: 42px; }
+      .sec-title { display: flex; flex-direction: column; align-items: center; gap: 12px; }
+      .sec-title .en { display: block; overflow: hidden; padding-bottom: .06em; font-family: var(--font-en); font-size: clamp(2.3rem, 5vw, 3.6rem); font-weight: 800; letter-spacing: -0.045em; line-height: 1.05; color: var(--c-text); }
+      .sec-title .en > span { display: inline-block; transform: translateY(105%); transition: transform 1.1s var(--ease-out-expo); }
+      .sec-head.active .sec-title .en > span { transform: none; }
+      .sec-title .ja { font-family: var(--font-sans); font-size: .9rem; font-weight: 700; letter-spacing: .24em; color: var(--c-text-light); }
+      .sec-head.reveal { transform: none; }
+
+      /* ---- Buttons ---- */
+      .btn-primary { position: relative; overflow: hidden; display: inline-flex; align-items: center; gap: 14px; padding: 19px 44px; border-radius: 100px; background: var(--gradient-accent); color: #fff; font-weight: 700; letter-spacing: .08em; box-shadow: 0 12px 30px rgba(0, 82, 255, .25); transition: transform var(--transition-fast), box-shadow var(--transition-fast); }
+      .btn-primary::before { content: ""; position: absolute; top: 0; left: -60%; width: 40%; height: 100%; background: linear-gradient(100deg, transparent, rgba(255,255,255,.45), transparent); transform: skewX(-20deg); animation: shine 4.5s 2.5s ease-in-out infinite; }
+      @keyframes shine { 0%, 70% { left: -60%; } 100% { left: 130%; } }
+      .btn-primary:hover { opacity: 1; transform: translateY(-2px); box-shadow: 0 16px 36px rgba(0, 82, 255, .33); }
+      .btn-primary .arw { transition: transform var(--transition-fast); }
+      .btn-primary:hover .arw { transform: translateX(5px); }
+
+      /* =============== ① HERO =============== */
+      .hero { position: relative; min-height: 100vh; min-height: 100svh; height: auto; display: flex; align-items: center; justify-content: center; padding: calc(var(--header-height) + 40px) 0 150px; background: #f5f8fd; overflow: hidden; isolation: isolate; }
+      #hero-net { position: absolute; inset: 0; width: 100%; height: 100%; z-index: -1; }
+      .hero-orb { position: absolute; border-radius: 50%; filter: blur(70px); z-index: -2; pointer-events: none; }
+      .hero-orb.o1 { width: 520px; height: 520px; left: -140px; top: -80px; background: rgba(0, 82, 255, .16); animation: orb1 18s ease-in-out infinite alternate; }
+      .hero-orb.o2 { width: 460px; height: 460px; right: -120px; bottom: -120px; background: rgba(43, 193, 255, .22); animation: orb2 22s ease-in-out infinite alternate; }
+      @keyframes orb1 { to { transform: translate(140px, 90px) scale(1.15); } }
+      @keyframes orb2 { to { transform: translate(-120px, -80px) scale(1.1); } }
+      .hero-grid { position: absolute; left: 0; right: 0; bottom: 0; height: 46%; z-index: -1; pointer-events: none; perspective: 600px; overflow: hidden; -webkit-mask-image: linear-gradient(to top, #000 10%, transparent 90%); mask-image: linear-gradient(to top, #000 10%, transparent 90%); }
+      .hero-grid::before { content: ""; position: absolute; left: -50%; right: -50%; top: 0; height: 200%; transform: rotateX(62deg); transform-origin: 50% 0; background-image: linear-gradient(rgba(0,82,255,.13) 1px, transparent 1px), linear-gradient(90deg, rgba(0,82,255,.13) 1px, transparent 1px); background-size: 56px 56px; animation: gridMove 6s linear infinite; }
+      @keyframes gridMove { to { background-position: 0 56px, 0 0; } }
+
+      .hero-content { text-align: center; padding: 0 5%; position: relative; z-index: 2; }
+      .hero-eyebrow { display: inline-flex; align-items: center; gap: 10px; padding: 8px 18px; border-radius: 100px; background: rgba(255,255,255,.7); border: 1px solid rgba(0,82,255,.12); font-family: var(--font-en); font-size: .74rem; font-weight: 700; letter-spacing: .22em; color: var(--c-primary); margin-bottom: 30px; opacity: 0; animation: fadeUp .9s .05s var(--ease-out-expo) forwards; backdrop-filter: blur(8px); }
+      .hero-eyebrow i { width: 7px; height: 7px; border-radius: 50%; background: #2bc1ff; box-shadow: 0 0 0 0 rgba(43,193,255,.6); animation: ping 2s infinite; }
+      @keyframes ping { 70% { box-shadow: 0 0 0 9px rgba(43,193,255,0); } 100% { box-shadow: 0 0 0 0 rgba(43,193,255,0); } }
+      .hero-title { display: block; font-family: var(--font-en); font-size: clamp(2.1rem, 8.4vw, 6.4rem); font-weight: 900; line-height: 1.04; letter-spacing: -0.045em; margin-bottom: 34px; color: var(--c-text); white-space: nowrap; }
+      .hero-title .line { display: block; overflow: hidden; padding: 0 .04em .08em; }
+      .hero-title .in { display: inline-block; transform: translateY(110%); animation: lineUp 1.2s var(--ease-out-expo) forwards; }
+      .hero-title .line:nth-child(2) .in { animation-delay: .14s; }
+      .hero-title .grad { background: linear-gradient(90deg, #0052ff 0%, #2bc1ff 35%, #0052ff 70%, #2bc1ff 100%); background-size: 220% auto; -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; animation: lineUp 1.2s var(--ease-out-expo) forwards, shimmer 7s 1.2s linear infinite; }
+      @keyframes lineUp { to { transform: none; } }
+      @keyframes shimmer { to { background-position: -220% center; } }
+      @keyframes fadeUp { from { opacity: 0; transform: translateY(18px); } to { opacity: 1; transform: none; } }
+      .hero-copy { font-size: clamp(1.15rem, 2.4vw, 1.6rem); font-weight: 700; letter-spacing: .24em; color: var(--c-text); margin-bottom: 22px; opacity: 0; animation: fadeUp 1s .55s var(--ease-out-expo) forwards; }
+      .hero-desc { font-size: 1rem; line-height: 2.1; color: var(--c-text-light); letter-spacing: .06em; max-width: 780px; margin: 0 auto 44px; opacity: 0; animation: fadeUp 1s .7s var(--ease-out-expo) forwards; }
+      .hero-desc .nw { display: inline-block; }
+      .hero-cta { opacity: 0; animation: fadeUp 1s .85s var(--ease-out-expo) forwards; }
+
+      .live-dot { width: 8px; height: 8px; border-radius: 50%; background: #fe2c55; display: inline-block; margin-right: 6px; animation: blink 1.4s infinite; }
+      @keyframes blink { 50% { opacity: .25; } }
+
+      .scroll-indicator { bottom: 32px; z-index: 2; }
+
+      /* =============== Marquee band =============== */
+      .marquee { background: #0b0c10; color: #fff; overflow: hidden; padding: 22px 0; position: relative; }
+      .marquee-track { display: flex; width: max-content; animation: marquee 38s linear infinite; }
+      .marquee-track span { font-family: var(--font-en); font-weight: 800; font-size: clamp(1.1rem, 2vw, 1.5rem); letter-spacing: .02em; padding: 0 26px; white-space: nowrap; }
+      .marquee-track span.o { color: transparent; -webkit-text-stroke: 1px rgba(255,255,255,.55); }
+      .marquee-track b { color: #2bc1ff; font-size: 1rem; align-self: center; }
+      @keyframes marquee { to { transform: translateX(-50%); } }
+
+      /* =============== ② SERVICE =============== */
+      .sec-service { background: #fff; }
+      .sec-service::before { content: "SERVICE"; position: absolute; right: -2%; top: 40px; font-family: var(--font-en); font-weight: 900; font-size: clamp(5rem, 14vw, 13rem); letter-spacing: -.05em; color: rgba(0, 82, 255, .035); z-index: -1; line-height: 1; pointer-events: none; }
+      .svc-grid { display: grid; grid-template-columns: repeat(2, 1fr); gap: 36px; }
+      .svc-card { position: relative; display: flex; flex-direction: column; padding: 18px 18px 36px; border-radius: 28px; background: #fff; border: 1px solid #e9edf4; box-shadow: 0 20px 50px rgba(11, 26, 64, .06); color: inherit; transition: transform .6s var(--ease-out-expo), box-shadow .6s var(--ease-out-expo), border-color .6s; overflow: hidden; }
+      .spot::after { content: ""; position: absolute; inset: 0; border-radius: inherit; pointer-events: none; opacity: 0; transition: opacity .4s; background: radial-gradient(420px circle at var(--mx, 50%) var(--my, 50%), rgba(43,193,255,.10), transparent 60%); }
+      .spot:hover::after { opacity: 1; }
+      .svc-img { border-radius: 20px; overflow: hidden; aspect-ratio: 800 / 460; margin-bottom: 30px; }
+      .svc-img svg { display: block; width: 100%; height: 100%; transition: transform 1.2s var(--ease-out-expo); }
+      .svc-body { padding: 0 18px; display: flex; flex-direction: column; flex: 1; }
+      .svc-num { display: flex; align-items: center; gap: 12px; font-family: var(--font-en); font-weight: 800; font-size: .85rem; letter-spacing: .18em; color: var(--c-primary); margin-bottom: 10px; }
+      .svc-num::after { content: ""; flex: 1; height: 1px; background: linear-gradient(90deg, rgba(0,82,255,.25), transparent); }
+      .svc-title { font-family: var(--font-sans); font-size: 1.55rem; font-weight: 700; line-height: 1.4; margin-bottom: 4px; }
+      .svc-en { font-family: var(--font-en); font-size: .72rem; font-weight: 700; letter-spacing: .22em; color: var(--c-text-light); margin-bottom: 18px; }
+      .svc-text { color: var(--c-text-light); line-height: 1.95; font-size: .98rem; }
+      .svc-tags { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 20px; }
+      .svc-tags li { font-size: .76rem; font-weight: 700; color: #3b4a66; background: #f1f4f9; padding: 6px 12px; border-radius: 100px; }
+      .svc-foot { margin-top: auto; padding-top: 26px; display: flex; align-items: center; justify-content: flex-end; gap: 14px; font-weight: 700; font-size: .92rem; color: var(--c-primary); }
+      .svc-arrow { width: 48px; height: 48px; border-radius: 50%; display: grid; place-items: center; background: var(--c-text); color: #fff; transition: background .4s, transform .5s var(--ease-out-expo); }
+      a.svc-card:hover { opacity: 1; transform: translateY(-6px); border-color: rgba(0,82,255,.25); box-shadow: 0 30px 70px rgba(0, 82, 255, .12); }
+      a.svc-card:hover .svc-img svg { transform: scale(1.04); }
+      a.svc-card:hover .svc-arrow { background: var(--c-primary); transform: translateX(4px); }
+      /* motion inside the card illustrations */
+      .svc-img g[filter]:not([transform]) { animation: svgFloat 6s ease-in-out infinite; }
+      .svc-img g[filter]:not([transform]):nth-of-type(2n) { animation-delay: -2s; }
+      .svc-img g[filter]:not([transform]):nth-of-type(3n) { animation-delay: -4s; animation-duration: 7s; }
+      @keyframes svgFloat { 0%, 100% { transform: translateY(0); } 50% { transform: translateY(-8px); } }
+      .svc-img g[fill="#fe2c55"] { animation: heartsUp 3.2s ease-in-out infinite; }
+      @keyframes heartsUp { 0% { transform: translateY(10px); opacity: 0; } 30% { opacity: 1; } 100% { transform: translateY(-36px); opacity: 0; } }
+      .svc-img rect[x="328"][y="60"] { animation: blink 1.4s infinite; }
+      .svc-img rect[x="338"][y="350"][width="40"] { transform-box: fill-box; transform-origin: left center; animation: bidBar 3s ease-in-out infinite; }
+      @keyframes bidBar { 0% { transform: scaleX(.3); } 100% { transform: scaleX(3.25); } }
+
+      /* =============== ③ STRENGTH =============== */
+      .sec-strength { background-color: #f1f4f9; background-image: radial-gradient(rgba(0, 82, 255, .09) 1px, transparent 1.2px); background-size: 26px 26px; }
+      .sec-strength::before { content: ""; position: absolute; inset: 0; z-index: -1; background: radial-gradient(60% 50% at 50% 0%, rgba(255,255,255,.95), transparent 70%), radial-gradient(40% 40% at 100% 100%, rgba(43,193,255,.12), transparent 70%); }
+      .st-grid { display: grid; grid-template-columns: repeat(3, 1fr); gap: 28px; }
+      .st-card { position: relative; background: #fff; border-radius: 26px; padding: 14px 14px 34px; border: 1px solid #e6ebf3; box-shadow: 0 18px 44px rgba(11, 26, 64, .06); transition: transform .6s var(--ease-out-expo), box-shadow .6s var(--ease-out-expo); overflow: hidden; }
+      .st-card:hover { transform: translateY(-6px); box-shadow: 0 28px 60px rgba(0, 82, 255, .1); }
+      .st-visual { position: relative; border-radius: 18px; aspect-ratio: 32 / 19; background: linear-gradient(145deg, #eef4ff 0%, #f7fbff 60%, #eaf6ff 100%); overflow: hidden; margin-bottom: 28px; }
+      .st-visual svg { display: block; width: 100%; height: 100%; }
+      .st-body { padding: 0 16px; }
+      .st-num { float: right; margin: -6px 0 0 12px; font-family: var(--font-en); font-weight: 900; font-size: 3rem; line-height: 1; letter-spacing: -.05em; color: transparent; -webkit-text-stroke: 1.2px rgba(0, 82, 255, .28); }
+      .st-kicker { font-family: var(--font-en); font-size: .72rem; font-weight: 800; letter-spacing: .2em; color: var(--c-primary); margin-bottom: 10px; }
+      .st-title { font-family: var(--font-sans); font-size: 1.22rem; font-weight: 700; line-height: 1.55; margin-bottom: 14px; }
+      .st-text { font-size: .94rem; line-height: 1.95; color: var(--c-text-light); }
+      /* strength illustrations */
+      .st-card .draw { stroke-dasharray: 1; stroke-dashoffset: 1; }
+      .st-card.active .draw { animation: draw 1.6s .4s var(--ease-out-expo) forwards; }
+      @keyframes draw { to { stroke-dashoffset: 0; } }
+      .st-card .grow { transform-box: fill-box; transform-origin: 50% 100%; transform: scaleY(0); }
+      .st-card.active .grow { animation: grow 1s var(--ease-out-expo) forwards; animation-delay: var(--d, 0s); }
+      @keyframes grow { to { transform: scaleY(1); } }
+      .st-card .pop { transform-box: fill-box; transform-origin: center; transform: scale(0); }
+      .st-card.active .pop { animation: pop .6s cubic-bezier(.34,1.56,.64,1) forwards; animation-delay: var(--d, 1.4s); }
+      @keyframes pop { to { transform: scale(1); } }
+      .step { animation: stepOn 4.5s infinite; animation-delay: var(--d, 0s); }
+      .step rect { fill: #fff; stroke: #d7e2f7; transition: fill .3s; }
+      @keyframes stepOn { 0%, 30% { opacity: 1; } }
+      .step-hl { animation: stepHl 4.5s infinite; animation-delay: var(--d, 0s); opacity: 0; }
+      @keyframes stepHl { 0% { opacity: 0; } 6%, 30% { opacity: 1; } 36%, 100% { opacity: 0; } }
+      .ring { transform-box: fill-box; transform-origin: center; animation: ring 2.2s ease-out infinite; }
+      @keyframes ring { 0% { transform: scale(.8); opacity: .7; } 100% { transform: scale(2); opacity: 0; } }
+      .bubble { animation: bubble 6s ease-in-out infinite; animation-delay: var(--d, 0s); opacity: 0; }
+      @keyframes bubble { 0% { opacity: 0; transform: translateY(18px); } 10%, 55% { opacity: 1; transform: translateY(0); } 70%, 100% { opacity: 0; transform: translateY(-14px); } }
+      .heart { animation: heart 3s ease-in infinite; animation-delay: var(--d, 0s); opacity: 0; }
+      @keyframes heart { 0% { opacity: 0; transform: translate(0, 0) scale(.6); } 15% { opacity: 1; } 100% { opacity: 0; transform: translate(var(--x, -10px), -110px) scale(1.1); } }
+      .flow { stroke-dasharray: 5 7; animation: flow 1.2s linear infinite; }
+      @keyframes flow { to { stroke-dashoffset: -24; } }
+      .spin-slow { transform-box: fill-box; transform-origin: center; animation: spin 14s linear infinite; }
+      @keyframes spin { to { transform: rotate(360deg); } }
+
+      /* =============== ④ MISSION =============== */
+      .sec-mission { background: #07080c; color: #fff; padding: 150px 0; }
+      .sec-mission::before { content: ""; position: absolute; inset: 0; z-index: -1; background-image: linear-gradient(rgba(255,255,255,.045) 1px, transparent 1px), linear-gradient(90deg, rgba(255,255,255,.045) 1px, transparent 1px); background-size: 72px 72px; -webkit-mask-image: radial-gradient(70% 70% at 50% 50%, #000 30%, transparent 80%); mask-image: radial-gradient(70% 70% at 50% 50%, #000 30%, transparent 80%); animation: gridDrift 30s linear infinite; }
+      @keyframes gridDrift { to { background-position: 72px 72px, 72px 72px; } }
+      .m-glow { position: absolute; border-radius: 50%; filter: blur(90px); z-index: -1; pointer-events: none; }
+      .m-glow.g1 { width: 560px; height: 560px; left: -160px; top: -160px; background: rgba(0, 82, 255, .35); animation: orb1 20s ease-in-out infinite alternate; }
+      .m-glow.g2 { width: 480px; height: 480px; right: -140px; bottom: -180px; background: rgba(43, 193, 255, .22); animation: orb2 24s ease-in-out infinite alternate; }
+      .sec-mission .sec-title .en { color: #fff; font-size: clamp(2.6rem, 6vw, 4.4rem); }
+      .sec-mission .sec-label { color: #2bc1ff; }
+      .m-wrap { max-width: 860px; margin: 0 auto; text-align: center; }
+      .m-catch { font-family: var(--font-serif); font-weight: 700; font-size: clamp(1.8rem, 4.2vw, 3.1rem); line-height: 1.6; letter-spacing: .06em; margin-bottom: 52px; }
+      .m-catch .ln { display: block; overflow: hidden; }
+      .m-catch .ln > span { display: inline-block; transform: translateY(105%); transition: transform 1.2s var(--ease-out-expo); }
+      .m-catch .ln:nth-child(2) > span { transition-delay: .18s; }
+      .m-catch.active .ln > span { transform: none; }
+      .m-catch .em { background: linear-gradient(90deg, #2bc1ff, #6aa8ff); -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
+      .m-catch.reveal { transform: none; }
+      .m-divider { width: 1px; height: 64px; margin: 0 auto 48px; background: linear-gradient(to bottom, transparent, rgba(43,193,255,.8), transparent); }
+      .m-body p { font-size: 1.02rem; line-height: 2.2; color: rgba(255,255,255,.72); letter-spacing: .04em; }
+      .m-body p + p { margin-top: 1.6em; }
+      .m-closing { margin-top: 52px; font-family: var(--font-serif); font-weight: 700; font-size: clamp(1.25rem, 2.4vw, 1.6rem); letter-spacing: .08em; color: #fff; }
+      .m-closing .nw, .m-catch .nw { display: inline-block; }
+      .m-sign { margin-top: 26px; font-size: .85rem; letter-spacing: .18em; color: rgba(255,255,255,.5); }
+      .btn-ghost { display: inline-flex; align-items: center; gap: 12px; margin-top: 44px; padding: 16px 34px; border-radius: 100px; border: 1px solid rgba(255,255,255,.28); color: #fff; font-weight: 700; font-size: .92rem; letter-spacing: .08em; transition: background .4s, border-color .4s, color .4s; }
+      .btn-ghost:hover { opacity: 1; background: #fff; color: var(--c-text); border-color: #fff; }
+
+      /* =============== ⑤ CONTACT =============== */
+      .sec-contact { background: linear-gradient(180deg, #eef4ff 0%, #f8faff 60%, #ffffff 100%); overflow: clip; }
+      .sec-contact::before { content: ""; position: absolute; width: 600px; height: 600px; right: -200px; top: -200px; border-radius: 50%; background: radial-gradient(circle, rgba(43,193,255,.18), transparent 70%); z-index: -1; }
+      .ct-grid { display: grid; grid-template-columns: .72fr 1.28fr; gap: 56px; align-items: start; }
+      .ct-info h3 { font-family: var(--font-sans); font-size: 1.5rem; font-weight: 700; line-height: 1.6; margin-bottom: 18px; }
+      .ct-info > p { color: var(--c-text-light); line-height: 2; font-size: .98rem; margin-bottom: 30px; }
+      .ct-list { display: grid; gap: 12px; }
+      .ct-list li { display: flex; align-items: center; gap: 14px; padding: 16px 18px; background: rgba(255,255,255,.75); border: 1px solid #e3eaf6; border-radius: 16px; font-weight: 600; font-size: .95rem; }
+      .ct-list li svg { flex: none; color: var(--c-primary); }
+      .ct-form { background: #fff; border: 1px solid #e3eaf6; border-radius: 28px; padding: 48px; box-shadow: 0 30px 70px rgba(11, 26, 64, .08); }
+      .contact-form { display: flex; flex-direction: column; gap: 22px; }
+      .form-row { display: grid; grid-template-columns: 1fr 1fr; gap: 18px; }
+      .form-group { display: flex; flex-direction: column; gap: 10px; }
+      .form-group label { display: flex; align-items: center; gap: 8px; font-size: .92rem; font-weight: 700; color: var(--c-text); }
+      .req { font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; background: var(--c-primary); color: #fff; letter-spacing: .05em; }
+      .form-input, .form-textarea { background: #f7f9fc; border: 1px solid #e3e8f0; border-radius: 14px; padding: 16px 18px; font-size: 1rem; }
+      .form-input:focus, .form-textarea:focus { background: #fff; }
+      .opt { font-size: .66rem; font-weight: 700; padding: 2px 8px; border-radius: 4px; background: #eceef3; color: var(--c-text-light); letter-spacing: .05em; }
+      fieldset.form-group { border: 0; padding: 0; margin: 0; min-width: 0; }
+      fieldset.form-group legend { display: flex; align-items: center; gap: 8px; font-size: .92rem; font-weight: 700; color: var(--c-text); margin-bottom: 10px; padding: 0; }
+      .choice-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; width: 100%; }
+      .form-group .choice { display: block; width: 100%; }
+      .choice-grid.cols-3 { grid-template-columns: 1fr; }
+      .choice { position: relative; cursor: pointer; }
+      .choice input { position: absolute; opacity: 0; width: 1px; height: 1px; }
+      .choice span { display: flex; flex-direction: column; justify-content: center; gap: 2px; min-height: 52px; height: 100%; padding: 12px 14px 12px 44px; border: 1px solid #e3e8f0; border-radius: 14px; background: #f7f9fc; font-size: .88rem; font-weight: 600; line-height: 1.45; color: var(--c-text); transition: border-color .25s, background .25s, box-shadow .25s; position: relative; }
+      .choice span small { font-size: .7rem; font-weight: 600; color: var(--c-text-light); }
+      .choice span::before { content: ""; position: absolute; left: 14px; top: 50%; width: 20px; height: 20px; margin-top: -10px; border: 1.5px solid #c3cddd; border-radius: 50%; background: #fff; transition: border-color .25s, background .25s; }
+      .choice.is-check span::before { border-radius: 6px; }
+      .choice span::after { content: ""; position: absolute; left: 21px; top: 50%; width: 6px; height: 11px; margin-top: -7px; border: solid #fff; border-width: 0 2.2px 2.2px 0; transform: rotate(45deg) scale(0); transition: transform .25s cubic-bezier(.34,1.56,.64,1); }
+      .choice:hover span { border-color: rgba(0,82,255,.35); }
+      .choice input:checked + span { border-color: var(--c-primary); background: #eef4ff; box-shadow: 0 0 0 3px rgba(0,82,255,.08); }
+      .choice input:checked + span::before { border-color: var(--c-primary); background: var(--c-primary); }
+      .choice input:checked + span::after { transform: rotate(45deg) scale(1); }
+      .choice input:focus-visible + span { outline: 2px solid var(--c-primary-light); outline-offset: 2px; }
+      .cond { display: grid; grid-template-rows: 0fr; opacity: 0; transition: grid-template-rows .5s var(--ease-out-expo), opacity .4s, margin .5s var(--ease-out-expo); margin-top: -22px; }
+      .cond.is-open { grid-template-rows: 1fr; opacity: 1; margin-top: 0; }
+      .cond-inner { overflow: hidden; min-height: 0; }
+      .cond-box { display: flex; flex-direction: column; gap: 20px; padding: 24px; border-radius: 18px; background: #f5f8fd; border: 1px solid #e1e9f6; }
+      .cond-box .form-input { background: #fff; }
+      .cond-box .form-row { grid-template-columns: 1fr; gap: 20px; }
+      .cond-box .choice span { background: #fff; }
+      .cond-title { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: .95rem; color: var(--c-text); }
+      .cond-title span { font-family: var(--font-en); font-size: .66rem; font-weight: 800; letter-spacing: .1em; color: #fff; background: var(--gradient-accent); padding: 3px 9px; border-radius: 6px; }
+      .select-wrap { position: relative; }
+      .select-wrap::after { content: ""; position: absolute; right: 18px; top: 50%; width: 8px; height: 8px; margin-top: -6px; border: solid var(--c-text-light); border-width: 0 2px 2px 0; transform: rotate(45deg); pointer-events: none; }
+      select.form-input { appearance: none; -webkit-appearance: none; padding-right: 44px; cursor: pointer; color: var(--c-text); }
+      .ct-info { position: sticky; top: calc(var(--header-height) + 32px); }
+      @media (max-width: 1024px) { .ct-info { position: static; } }
+      @media (max-width: 768px) { .choice-grid, .choice-grid.cols-3 { grid-template-columns: 1fr; } .cond-box { padding: 18px 16px; } }
+      .btn-submit { margin-top: 6px; display: inline-flex; justify-content: center; align-items: center; gap: 12px; font-family: var(--font-sans); width: 100%; }
+      .btn-submit:hover { transform: translateY(-2px); }
+      .btn-submit:disabled { opacity: .6; cursor: wait; transform: none; }
+      .form-status { display: none; padding: 16px 20px; border-radius: 14px; font-size: .94rem; font-weight: 600; line-height: 1.7; }
+      .form-status.is-success { display: block; background: #eef6ff; color: #0040c8; border: 1px solid rgba(0,82,255,.2); }
+      .form-status.is-error { display: block; background: #fff1f2; color: #c0263d; border: 1px solid rgba(220,38,61,.2); }
+
+      /* =============== Responsive =============== */
+      @media (max-width: 1024px) {
+        .st-grid { grid-template-columns: 1fr 1fr; }
+        .ct-grid { grid-template-columns: 1fr; gap: 40px; }
+      }
+      @media (max-width: 768px) {
+        .sec { padding: 88px 0; }
+        .sec-mission { padding: 100px 0; }
+        .sec-head { margin-bottom: 44px; }
+        .hero { padding: calc(var(--header-height) + 32px) 0 80px; }
+        .hero-title { font-size: clamp(2.1rem, 9.2vw, 3rem); margin-bottom: 26px; }
+        .hero-eyebrow { font-size: .62rem; letter-spacing: .16em; margin-bottom: 24px; }
+        .hero-copy { letter-spacing: .14em; margin-bottom: 18px; }
+        .hero-desc { font-size: .92rem; line-height: 2; letter-spacing: .02em; margin-bottom: 36px; }
+        .pc-br { display: none; }
+        .scroll-indicator { display: none; }
+        .hero-grid { height: 34%; }
+        .marquee { padding: 16px 0; }
+        .svc-grid { grid-template-columns: 1fr; gap: 24px; }
+        .svc-card { padding: 12px 12px 26px; border-radius: 22px; }
+        .svc-img { margin-bottom: 22px; border-radius: 16px; }
+        .svc-body { padding: 0 10px; }
+        .svc-title { font-size: 1.3rem; }
+        .st-grid { grid-template-columns: 1fr; gap: 20px; }
+        .st-title { font-size: 1.12rem; }
+        .m-body p { font-size: .94rem; line-height: 2.05; text-align: left; }
+        .m-body p br { display: none; }
+        .m-closing { font-size: min(5.2vw, 1.25rem); letter-spacing: .04em; }
+        .ct-form { padding: 30px 20px; border-radius: 22px; }
+        .form-row { grid-template-columns: 1fr; gap: 22px; }
+        .ct-info h3 { font-size: 1.25rem; }
+      }
+      @media (max-height: 760px) and (min-width: 769px) { .scroll-indicator { display: none; } }
+      @media (prefers-reduced-motion: reduce) {
+        *, *::before, *::after { animation-duration: .001s !important; animation-iteration-count: 1 !important; transition-duration: .001s !important; }
+        .hero-title .in, .sec-title .en > span, .m-catch .ln > span { transform: none !important; }
+      }
+    </style>
+</head>
+<body>
+    <svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs><path id="tt-glyph" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/></defs></svg>
+    <div id="moving-bg"></div>
+
+    <header class="header" id="header">
+        <div class="header-inner">
+            <div class="logo"><a href="#top" aria-label="gofine トップへ">gofine</a></div>
+            <button class="menu-btn" id="menu-btn" type="button" aria-label="メニューを開く" aria-expanded="false" aria-controls="gnav"><span></span><span></span><span></span></button>
+            <nav class="gnav" id="gnav" aria-label="メインメニュー">
+                <ul class="gnav-list">
+                    <li><a href="service.html" class="nav-link">事業内容</a></li>
+                    <li><a href="message.html" class="nav-link">代表の言葉</a></li>
+                    <li><a href="company.html" class="nav-link">会社概要</a></li>
+                    <li><a href="#contact" class="nav-link is-cta">お問い合わせ</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main id="top">
+        <!-- ① ファーストビュー -->
+        <section class="hero" id="hero">
+            <div class="hero-orb o1" aria-hidden="true"></div>
+            <div class="hero-orb o2" aria-hidden="true"></div>
+            <canvas id="hero-net" class="net-canvas" data-tone="light" aria-hidden="true"></canvas>
+            <div class="hero-grid" aria-hidden="true"></div>
+
+            <div class="hero-content">
+                <p class="hero-eyebrow"><i></i>SNS MARKETING × E-COMMERCE</p>
+                <h1 class="hero-title">
+                    <span class="line"><span class="in grad">REDEFINE</span></span>
+                    <span class="line"><span class="in">WHAT'S POSSIBLE.</span></span>
+                </h1>
+                <p class="hero-copy">その可能性に、新しい答えを。</p>
+                <p class="hero-desc">
+                    <span class="nw">これまでの常識にとらわれず、</span><span class="nw">新しい視点とSNSの力で、</span><span class="nw">まだ見えていない可能性を見つけ出す。</span><br class="pc-br">
+                    <span class="nw">課題の先にある成長を、</span><span class="nw">私たちはともに創り出します。</span>
+                </p>
+                <div class="hero-cta"><a href="#contact" class="btn-primary">お問い合わせ<span class="arw" aria-hidden="true">→</span></a></div>
+            </div>
+            <div class="scroll-indicator" aria-hidden="true">
+                <span class="scroll-text">SCROLL</span>
+                <div class="scroll-line"></div>
+            </div>
+        </section>
+
+        <div class="marquee" aria-hidden="true">
+            <div class="marquee-track">
+                <span>SNS MARKETING</span><b>✦</b><span class="o">TIKTOK SHOP</span><b>✦</b><span>LIVE AUCTION</span><b>✦</b><span class="o">LIVE COMMERCE</span><b>✦</b><span>E-COMMERCE</span><b>✦</b><span class="o">REDEFINE WHAT'S POSSIBLE</span><b>✦</b>
+                <span>SNS MARKETING</span><b>✦</b><span class="o">TIKTOK SHOP</span><b>✦</b><span>LIVE AUCTION</span><b>✦</b><span class="o">LIVE COMMERCE</span><b>✦</b><span>E-COMMERCE</span><b>✦</b><span class="o">REDEFINE WHAT'S POSSIBLE</span><b>✦</b>
+            </div>
+        </div>
+
+        <!-- ② 事業内容 -->
+        <section class="sec sec-service" id="service">
+            <div class="container">
+                <div class="sec-head reveal">
+                    <p class="sec-label"><span class="num">01</span><span class="bar"></span>SERVICE</p>
+                    <h2 class="sec-title"><span class="en"><span>Service</span></span><span class="ja">事業内容</span></h2>
+                </div>
+                <div class="svc-grid">
+                    <article class="svc-card spot reveal">
+                        <div class="svc-img">
+<svg class="card-image" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid meet" style="background:linear-gradient(135deg,#eaf2ff,#fbf0f7)" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TikTokとInstagramを活用したSNSマーケティング支援">
+  <defs>
+    <linearGradient id="sns-bg" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#eaf2ff"/><stop offset="1" stop-color="#fbf0f7"/></linearGradient>
+    <radialGradient id="sns-ig" cx=".3" cy="1.05" r="1.25"><stop offset="0" stop-color="#feda75"/><stop offset=".25" stop-color="#fa7e1e"/><stop offset=".5" stop-color="#d62976"/><stop offset=".75" stop-color="#962fbf"/><stop offset="1" stop-color="#4f5bd5"/></radialGradient>
+    <linearGradient id="sns-bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#0052ff"/><stop offset="1" stop-color="#2bc1ff"/></linearGradient>
+    <filter id="sns-sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b2a6b" flood-opacity=".16"/></filter>
+    <path id="sns-tt" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+  </defs>
+  <rect width="800" height="460" fill="url(#sns-bg)"/>
+  <circle cx="110" cy="400" r="150" fill="#2bc1ff" opacity=".10"/>
+  <circle cx="720" cy="60" r="140" fill="#d62976" opacity=".08"/>
+  <g fill="none" stroke="#0052ff" stroke-opacity=".18" stroke-width="2" stroke-dasharray="4 8">
+    <path d="M210 120 C 250 150, 260 170, 262 190"/><path d="M600 150 C 560 160, 545 175, 540 195"/><path d="M400 340 L 400 318"/>
+  </g>
+  <!-- TikTok app icon -->
+  <g filter="url(#sns-sh)">
+    <rect x="232" y="150" width="160" height="160" rx="38" fill="#111"/>
+    <g transform="translate(266 184) scale(3.9)">
+      <use href="#sns-tt" fill="#25F4EE" transform="translate(-.7 -.7)"/>
+      <use href="#sns-tt" fill="#FE2C55" transform="translate(.7 .7)"/>
+      <use href="#sns-tt" fill="#fff"/>
+    </g>
+  </g>
+  <!-- Instagram app icon -->
+  <g filter="url(#sns-sh)">
+    <rect x="410" y="150" width="160" height="160" rx="38" fill="url(#sns-ig)"/>
+    <rect x="446" y="186" width="88" height="88" rx="26" fill="none" stroke="#fff" stroke-width="10"/>
+    <circle cx="490" cy="230" r="21" fill="none" stroke="#fff" stroke-width="10"/>
+    <circle cx="516" cy="204" r="6.5" fill="#fff"/>
+  </g>
+  <!-- likes card -->
+  <g filter="url(#sns-sh)">
+    <rect x="48" y="58" width="176" height="74" rx="18" fill="#fff"/>
+    <circle cx="86" cy="95" r="20" fill="#fff0f3"/>
+    <path d="M86 106c-10-7-15-12-15-18 0-4 3-7 7-7 3 0 6 2 8 5 2-3 5-5 8-5 4 0 7 3 7 7 0 6-5 11-15 18z" fill="#fe2c55"/>
+    <text x="116" y="92" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#16161d">12.4K</text>
+    <text x="116" y="115" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">いいね</text>
+  </g>
+  <!-- followers card -->
+  <g filter="url(#sns-sh)">
+    <rect x="590" y="96" width="172" height="104" rx="18" fill="#fff"/>
+    <text x="608" y="124" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">フォロワー</text>
+    <text x="608" y="152" font-family="Inter,sans-serif" font-size="24" font-weight="800" fill="#0052ff">+3,280</text>
+    <path d="M610 186 L640 176 L664 180 L692 164 L720 166 L744 146" fill="none" stroke="#2bc1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+    <path d="M734 144 L746 145 L744 157" fill="none" stroke="#2bc1ff" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  </g>
+  <!-- views chart card -->
+  <g filter="url(#sns-sh)">
+    <rect x="282" y="338" width="236" height="96" rx="18" fill="#fff"/>
+    <text x="300" y="366" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="700" fill="#6a6a7c">再生数</text>
+    <text x="300" y="396" font-family="Inter,sans-serif" font-size="22" font-weight="800" fill="#16161d">▲ 248%</text>
+    <g fill="url(#sns-bar)"><rect x="410" y="398" width="14" height="22" rx="4"/><rect x="430" y="388" width="14" height="32" rx="4"/><rect x="450" y="376" width="14" height="44" rx="4"/><rect x="470" y="362" width="14" height="58" rx="4"/><rect x="490" y="350" width="14" height="70" rx="4"/></g>
+  </g>
+  <!-- comment bubbles -->
+  <g filter="url(#sns-sh)">
+    <rect x="56" y="250" width="150" height="44" rx="22" fill="#fff"/>
+    <text x="131" y="278" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d" text-anchor="middle">保存しました！</text>
+    <rect x="80" y="310" width="132" height="44" rx="22" fill="#0052ff"/>
+    <text x="146" y="338" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#fff" text-anchor="middle">シェア 1,520</text>
+  </g>
+  <!-- floating hearts -->
+  <g fill="#fe2c55">
+    <path transform="translate(640 270) scale(1.3)" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+    <path transform="translate(700 320) scale(.9)" opacity=".7" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+    <path transform="translate(668 370) scale(.65)" opacity=".45" d="M12 21c-7-5-11-8.5-11-13 0-3 2.5-5 5-5 2.2 0 4.2 1.4 6 3.5C13.8 4.4 15.8 3 18 3c2.5 0 5 2 5 5 0 4.5-4 8-11 13z"/>
+  </g>
+</svg>
+                        </div>
+                        <div class="svc-body">
+                            <p class="svc-num">01</p>
+                            <h3 class="svc-title">SNSマーケティング支援</h3>
+                            <p class="svc-en">SNS MARKETING SUPPORT</p>
+                            <p class="svc-text">企業の課題や目標に合わせたSNS戦略の立案から、運用・分析・改善までを一貫して支援。SNSを通じた認知拡大と事業成長をサポートします。</p>
+                            <ul class="svc-tags"><li>戦略立案</li><li>アカウント運用</li><li>分析・改善</li></ul>
+                        </div>
+                    </article>
+                    <a href="live-auction.html" class="svc-card spot reveal delay-1" aria-label="EC事業支援（TikTokオークション）のサービス詳細を見る">
+                        <div class="svc-img">
+<svg class="card-image" viewBox="0 0 800 460" preserveAspectRatio="xMidYMid meet" style="background:#f4f6fa" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="TikTok ShopのLIVEオークションを活用したEC事業支援">
+  <defs>
+    <linearGradient id="ec-holo" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#ffe259"/><stop offset=".35" stop-color="#ff7eb3"/><stop offset=".7" stop-color="#7afcff"/><stop offset="1" stop-color="#a18cd1"/></linearGradient>
+    <linearGradient id="ec-screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2335"/><stop offset="1" stop-color="#2c3150"/></linearGradient>
+    <filter id="ec-sh" x="-30%" y="-30%" width="160%" height="170%"><feDropShadow dx="0" dy="14" stdDeviation="16" flood-color="#0b1a40" flood-opacity=".2"/></filter>
+    <path id="ec-tt" d="M12.525.02c1.31-.02 2.61-.01 3.91-.02.08 1.53.63 3.09 1.75 4.17 1.12 1.11 2.7 1.62 4.24 1.79v4.03c-1.44-.05-2.89-.35-4.2-.97-.57-.26-1.1-.59-1.62-.93-.01 2.92.01 5.84-.02 8.75-.08 1.4-.54 2.79-1.35 3.94-1.31 1.92-3.58 3.17-5.91 3.21-1.43.08-2.86-.31-4.08-1.03-2.02-1.19-3.44-3.37-3.65-5.71-.02-.5-.03-1-.01-1.49.18-1.9 1.12-3.72 2.58-4.96 1.66-1.44 3.98-2.13 6.15-1.72.02 1.48-.04 2.96-.04 4.44-.99-.32-2.15-.23-3.02.37-.63.41-1.11 1.04-1.36 1.75-.21.51-.15 1.07-.14 1.61.24 1.64 1.82 3.02 3.5 2.87 1.12-.01 2.19-.66 2.77-1.61.19-.33.4-.67.41-1.06.1-1.79.06-3.57.07-5.36.01-4.03-.01-8.05.02-12.07z"/>
+    <g id="ec-logo">
+      <use href="#ec-tt" fill="#25F4EE" transform="translate(-.8 -.8)"/>
+      <use href="#ec-tt" fill="#FE2C55" transform="translate(.8 .8)"/>
+      <use href="#ec-tt" fill="#111"/>
+    </g>
+  </defs>
+  <!-- background with TikTok-color stripes -->
+  <rect width="800" height="460" fill="#f4f6fa"/>
+  <path d="M0 0 H150 L40 460 H0 Z" fill="#fff"/>
+  <path d="M150 0 H210 L100 460 H40 Z" fill="#25f4ee"/>
+  <path d="M700 0 H800 V460 H590 Z" fill="#fe2c55"/>
+  <rect x="610" y="30" width="70" height="70" rx="8" fill="#e9ecf2"/>
+  <rect x="240" y="380" width="54" height="54" rx="8" fill="#e9ecf2"/>
+
+  <!-- phone -->
+  <g transform="rotate(-6 400 240)" filter="url(#ec-sh)">
+    <rect x="305" y="22" width="196" height="410" rx="34" fill="#111"/>
+    <rect x="314" y="31" width="178" height="392" rx="27" fill="url(#ec-screen)"/>
+    <rect x="370" y="38" width="66" height="10" rx="5" fill="#111"/>
+    <rect x="328" y="60" width="42" height="18" rx="4" fill="#fe2c55"/>
+    <text x="349" y="73.5" font-family="Inter,sans-serif" font-size="11" font-weight="800" fill="#fff" text-anchor="middle">LIVE</text>
+    <text x="380" y="73.5" font-family="Inter,sans-serif" font-size="11" font-weight="600" fill="#fff" opacity=".8">2,846 watching</text>
+    <!-- card on stage -->
+    <g transform="translate(366 96)">
+      <rect width="74" height="104" rx="6" fill="#fff" stroke="#e2c044" stroke-width="2.4"/>
+      <rect x="5" y="5" width="64" height="94" rx="4" fill="#fdf6d8"/>
+      <rect x="10" y="14" width="54" height="38" rx="3" fill="url(#ec-holo)"/>
+      <path d="M37 19l4 8.3 9.1 1.3-6.6 6.4 1.6 9-8.1-4.3-8.1 4.3 1.6-9-6.6-6.4 9.1-1.3z" fill="#fff" opacity=".9"/>
+      <rect x="10" y="8" width="30" height="3.5" rx="1.7" fill="#d9b23a"/>
+      <rect x="10" y="60" width="54" height="4" rx="2" fill="#e8dcae"/><rect x="10" y="68" width="42" height="4" rx="2" fill="#e8dcae"/><rect x="10" y="76" width="48" height="4" rx="2" fill="#e8dcae"/>
+      <rect x="10" y="87" width="18" height="6" rx="3" fill="#fe2c55"/>
+    </g>
+    <!-- comments -->
+    <rect x="326" y="226" width="110" height="20" rx="10" fill="#fff" fill-opacity=".16"/>
+    <text x="336" y="240" font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700" fill="#fff">状態めっちゃ綺麗！</text>
+    <rect x="326" y="252" width="96" height="20" rx="10" fill="#fff" fill-opacity=".16"/>
+    <text x="336" y="266" font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700" fill="#fff">入札しました🔥</text>
+    <!-- auction panel -->
+    <rect x="324" y="286" width="158" height="124" rx="16" fill="#fff"/>
+    <text x="338" y="308" font-family="Noto Sans JP,sans-serif" font-size="10" font-weight="700" fill="#6a6a7c">現在の最高入札額</text>
+    <text x="468" y="308" font-family="Noto Sans JP,sans-serif" font-size="10" font-weight="700" fill="#6a6a7c" text-anchor="end">残り</text>
+    <text x="338" y="338" font-family="Inter,sans-serif" font-size="25" font-weight="800" fill="#16161d">¥48,500</text>
+    <text x="468" y="336" font-family="Inter,sans-serif" font-size="16" font-weight="800" fill="#fe2c55" text-anchor="end">0:12</text>
+    <rect x="338" y="350" width="130" height="5" rx="2.5" fill="#f0f1f5"/>
+    <rect x="338" y="350" width="40" height="5" rx="2.5" fill="#fe2c55"/>
+    <rect x="338" y="366" width="130" height="32" rx="10" fill="#fe2c55"/>
+    <text x="403" y="387" font-family="Noto Sans JP,sans-serif" font-size="13" font-weight="800" fill="#fff" text-anchor="middle">入札する</text>
+  </g>
+
+  <!-- TikTok Shop badge -->
+  <g filter="url(#ec-sh)">
+    <rect x="44" y="52" width="210" height="60" rx="30" fill="#fff"/>
+    <g transform="translate(64 66) scale(1.35)"><use href="#ec-logo"/></g>
+    <text x="104" y="91" font-family="Inter,sans-serif" font-size="21" font-weight="900" fill="#111">TikTok Shop</text>
+  </g>
+  <text x="58" y="146" font-family="Inter,sans-serif" font-size="15" font-weight="800" fill="#111" letter-spacing="2">LIVE AUCTION</text>
+  <rect x="58" y="154" width="128" height="4" rx="2" fill="#fe2c55"/>
+
+  <!-- luxury bag card -->
+  <g filter="url(#ec-sh)">
+    <rect x="76" y="236" width="170" height="164" rx="20" fill="#fff"/>
+    <path d="M131 290c0-18 12-28 30-28s30 10 30 28" fill="none" stroke="#5a3b22" stroke-width="5" stroke-linecap="round"/>
+    <path d="M104 292h114l9 72H95z" fill="#8b5a33"/>
+    <path d="M104 292h114l4 26H100z" fill="#7a4d2a"/>
+    <rect x="152" y="312" width="18" height="14" rx="3" fill="#e8c76a" stroke="#b8932f" stroke-width="1.5"/>
+    <g fill="#c9925d" opacity=".55"><circle cx="118" cy="340" r="2.4"/><circle cx="138" cy="350" r="2.4"/><circle cx="184" cy="350" r="2.4"/><circle cx="204" cy="340" r="2.4"/><circle cx="161" cy="352" r="2.4"/></g>
+    <text x="161" y="388" font-family="Inter,sans-serif" font-size="17" font-weight="800" fill="#16161d" text-anchor="middle">¥286,000</text>
+  </g>
+
+  <!-- bid notifications -->
+  <g filter="url(#ec-sh)">
+    <rect x="548" y="128" width="196" height="46" rx="23" fill="#fff"/>
+    <circle cx="573" cy="151" r="13" fill="#2bc1ff"/>
+    <text x="594" y="156" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d">+500 入札しました</text>
+    <rect x="566" y="186" width="178" height="46" rx="23" fill="#fff"/>
+    <circle cx="591" cy="209" r="13" fill="#a18cd1"/>
+    <text x="612" y="214" font-family="Noto Sans JP,sans-serif" font-size="14" font-weight="700" fill="#16161d">+1,000 入札！</text>
+  </g>
+  <!-- sold badge -->
+  <g filter="url(#ec-sh)" transform="rotate(6 650 318)">
+    <rect x="556" y="270" width="190" height="96" rx="20" fill="#fff"/>
+    <text x="651" y="306" font-family="Noto Sans JP,sans-serif" font-size="16" font-weight="900" fill="#fe2c55" text-anchor="middle">落札！</text>
+    <text x="651" y="344" font-family="Inter,sans-serif" font-size="30" font-weight="900" fill="#16161d" text-anchor="middle">¥52,000</text>
+  </g>
+  <!-- shopping bag icon -->
+  <g filter="url(#ec-sh)">
+    <path d="M612 392h64l-6 52h-52z" fill="#111"/>
+    <path d="M628 392c0-12 6-18 16-18s16 6 16 18" fill="none" stroke="#111" stroke-width="5"/>
+    <g transform="translate(633 405) scale(.95)"><use href="#ec-tt" fill="#25F4EE" transform="translate(-.8 -.8)"/><use href="#ec-tt" fill="#FE2C55" transform="translate(.8 .8)"/><use href="#ec-tt" fill="#fff"/></g>
+  </g>
+</svg>
+                        </div>
+                        <div class="svc-body">
+                            <p class="svc-num">02</p>
+                            <h3 class="svc-title">EC事業支援</h3>
+                            <p class="svc-en">E-COMMERCE SUPPORT</p>
+                            <p class="svc-text">TikTok Shopの中でも、特に「TikTokオークション」に注力。オークション機能の導入準備から、出品・配信の戦略設計、ライブコマースの運用まで一貫して支援し、新たな販売チャネルでの売上拡大を実現します。</p>
+                            <ul class="svc-tags"><li>TikTok Shop</li><li>LIVEオークション</li><li>ライブコマース</li></ul>
+                            <div class="svc-foot">
+                                <span>サービス詳細を見る</span>
+                                <span class="svc-arrow" aria-hidden="true"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 12h14M13 6l6 6-6 6"/></svg></span>
+                            </div>
+                        </div>
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <!-- ③ gofineの強み -->
+        <section class="sec sec-strength" id="strength">
+            <div class="container">
+                <div class="sec-head reveal">
+                    <p class="sec-label"><span class="num">02</span><span class="bar"></span>OUR STRENGTH</p>
+                    <h2 class="sec-title"><span class="en"><span>Our Strength</span></span><span class="ja">gofineの強み</span></h2>
+                </div>
+                <div class="st-grid">
+                    <!-- 01 -->
+                    <article class="st-card reveal">
+                        <div class="st-visual">
+                            <svg viewBox="0 0 320 190" aria-hidden="true">
+                                <defs><linearGradient id="st-bar" x1="0" y1="1" x2="0" y2="0"><stop offset="0" stop-color="#0052ff"/><stop offset="1" stop-color="#2bc1ff"/></linearGradient></defs>
+                                <g stroke="#0052ff" stroke-opacity=".08"><path d="M24 76H300M24 110H300M24 144H300M24 178H300"/></g>
+                                <!-- 戦略 → 実行 → 改善 -->
+                                <g font-family="Noto Sans JP,sans-serif" font-size="11" font-weight="700" text-anchor="middle">
+                                    <g><rect x="24" y="16" width="58" height="26" rx="13" fill="#fff" stroke="#d7e2f7"/><rect class="step-hl" style="--d:0s" x="24" y="16" width="58" height="26" rx="13" fill="#0052ff"/><text x="53" y="33" fill="#3b4a66">戦略</text><text class="step-hl" style="--d:0s" x="53" y="33" fill="#fff">戦略</text></g>
+                                    <path d="M88 29h14" stroke="#9fb5dd" stroke-width="1.6" marker-end=""/><path d="M98 25l4 4-4 4" fill="none" stroke="#9fb5dd" stroke-width="1.6"/>
+                                    <g><rect x="108" y="16" width="58" height="26" rx="13" fill="#fff" stroke="#d7e2f7"/><rect class="step-hl" style="--d:1.5s" x="108" y="16" width="58" height="26" rx="13" fill="#0052ff"/><text x="137" y="33" fill="#3b4a66">実行</text><text class="step-hl" style="--d:1.5s" x="137" y="33" fill="#fff">実行</text></g>
+                                    <path d="M172 29h14" stroke="#9fb5dd" stroke-width="1.6"/><path d="M182 25l4 4-4 4" fill="none" stroke="#9fb5dd" stroke-width="1.6"/>
+                                    <g><rect x="192" y="16" width="58" height="26" rx="13" fill="#fff" stroke="#d7e2f7"/><rect class="step-hl" style="--d:3s" x="192" y="16" width="58" height="26" rx="13" fill="#0052ff"/><text x="221" y="33" fill="#3b4a66">改善</text><text class="step-hl" style="--d:3s" x="221" y="33" fill="#fff">改善</text></g>
+                                    <path d="M256 29c18 0 22 6 22 14" fill="none" stroke="#9fb5dd" stroke-width="1.6" stroke-dasharray="3 3"/>
+                                </g>
+                                <g fill="url(#st-bar)">
+                                    <rect class="grow" style="--d:.1s" x="40" y="146" width="26" height="32" rx="6" opacity=".45"/>
+                                    <rect class="grow" style="--d:.2s" x="90" y="130" width="26" height="48" rx="6" opacity=".55"/>
+                                    <rect class="grow" style="--d:.3s" x="140" y="114" width="26" height="64" rx="6" opacity=".7"/>
+                                    <rect class="grow" style="--d:.4s" x="190" y="96" width="26" height="82" rx="6" opacity=".85"/>
+                                    <rect class="grow" style="--d:.5s" x="240" y="74" width="26" height="104" rx="6"/>
+                                </g>
+                                <path class="draw" pathLength="1" d="M53 134 L103 118 L153 102 L203 84 L253 62" fill="none" stroke="#111115" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/>
+                                <g fill="#fff" stroke="#111115" stroke-width="2">
+                                    <circle class="pop" style="--d:.7s" cx="53" cy="134" r="4"/><circle class="pop" style="--d:.9s" cx="103" cy="118" r="4"/><circle class="pop" style="--d:1.1s" cx="153" cy="102" r="4"/><circle class="pop" style="--d:1.3s" cx="203" cy="84" r="4"/>
+                                </g>
+                                <circle class="ring" cx="253" cy="62" r="9" fill="none" stroke="#0052ff" stroke-width="2"/>
+                                <g class="pop" style="--d:1.5s"><circle cx="253" cy="62" r="11" fill="#0052ff"/><path d="M248 62.5l3.5 3.5 6.5-7" fill="none" stroke="#fff" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></g>
+                            </svg>
+                        </div>
+                        <div class="st-body">
+                            <span class="st-num" aria-hidden="true">01</span>
+                            <p class="st-kicker">COMMITMENT</p>
+                            <h3 class="st-title">結果にこだわる実行支援</h3>
+                            <p class="st-text">戦略の立案だけで終わらず、実行から改善まで一貫して伴走。成果につながる支援を追求します。</p>
+                        </div>
+                    </article>
+
+                    <!-- 02 -->
+                    <article class="st-card reveal delay-1">
+                        <div class="st-visual">
+                            <svg viewBox="0 0 320 190" aria-hidden="true">
+                                <defs>
+                                    <linearGradient id="st-screen" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#1d2335"/><stop offset="1" stop-color="#34406a"/></linearGradient>
+                                    <filter id="st-sh" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0b1a40" flood-opacity=".18"/></filter>
+                                </defs>
+                                <circle cx="160" cy="98" r="78" fill="#0052ff" opacity=".06"/>
+                                <circle class="spin-slow" cx="160" cy="98" r="64" fill="none" stroke="#0052ff" stroke-opacity=".25" stroke-dasharray="2 8"/>
+                                <!-- phone -->
+                                <g filter="url(#st-sh)">
+                                    <rect x="118" y="14" width="84" height="166" rx="16" fill="#111"/>
+                                    <rect x="123" y="19" width="74" height="156" rx="12" fill="url(#st-screen)"/>
+                                    <rect x="146" y="23" width="28" height="5" rx="2.5" fill="#111"/>
+                                    <circle cx="160" cy="92" r="17" fill="#8ea6d8" opacity=".9"/>
+                                    <path d="M132 150c4-22 16-32 28-32s24 10 28 32z" fill="#8ea6d8" opacity=".9"/>
+                                    <rect x="130" y="36" width="30" height="13" rx="3" fill="#fe2c55" style="animation: blink 1.4s infinite"/>
+                                    <text x="145" y="45.5" font-family="Inter,sans-serif" font-size="8" font-weight="800" fill="#fff" text-anchor="middle">LIVE</text>
+                                    <rect x="164" y="36" width="26" height="13" rx="3" fill="#fff" fill-opacity=".18"/>
+                                    <circle cx="170" cy="42.5" r="2" fill="#fff"/><rect x="174" y="41" width="12" height="3" rx="1.5" fill="#fff" fill-opacity=".8"/>
+                                    <rect x="130" y="156" width="60" height="12" rx="6" fill="#fff" fill-opacity=".14"/>
+                                </g>
+                                <!-- comments -->
+                                <g font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700">
+                                    <g class="bubble" style="--d:0s"><rect x="12" y="58" width="92" height="26" rx="13" fill="#fff" filter="url(#st-sh)"/><circle cx="26" cy="71" r="7" fill="#2bc1ff"/><text x="38" y="75" fill="#16161d">わかりやすい！</text></g>
+                                    <g class="bubble" style="--d:2s"><rect x="20" y="96" width="84" height="26" rx="13" fill="#fff" filter="url(#st-sh)"/><circle cx="34" cy="109" r="7" fill="#a18cd1"/><text x="46" y="113" fill="#16161d">参考になる</text></g>
+                                    <g class="bubble" style="--d:4s"><rect x="12" y="134" width="92" height="26" rx="13" fill="#0052ff" filter="url(#st-sh)"/><text x="58" y="151" fill="#fff" text-anchor="middle">購入しました</text></g>
+                                </g>
+                                <!-- hearts -->
+                                <g fill="#fe2c55">
+                                    <path class="heart" style="--d:0s;--x:-14px" transform="translate(236 150)" d="M8 14c-4.7-3.3-7.3-5.7-7.3-8.7 0-2 1.7-3.3 3.3-3.3 1.5 0 2.8.9 4 2.3 1.2-1.4 2.5-2.3 4-2.3 1.6 0 3.3 1.3 3.3 3.3 0 3-2.6 5.4-7.3 8.7z"/>
+                                    <path class="heart" style="--d:.8s;--x:10px" transform="translate(256 154)" fill="#2bc1ff" d="M8 14c-4.7-3.3-7.3-5.7-7.3-8.7 0-2 1.7-3.3 3.3-3.3 1.5 0 2.8.9 4 2.3 1.2-1.4 2.5-2.3 4-2.3 1.6 0 3.3 1.3 3.3 3.3 0 3-2.6 5.4-7.3 8.7z"/>
+                                    <path class="heart" style="--d:1.6s;--x:-4px" transform="translate(246 156)" d="M8 14c-4.7-3.3-7.3-5.7-7.3-8.7 0-2 1.7-3.3 3.3-3.3 1.5 0 2.8.9 4 2.3 1.2-1.4 2.5-2.3 4-2.3 1.6 0 3.3 1.3 3.3 3.3 0 3-2.6 5.4-7.3 8.7z"/>
+                                    <path class="heart" style="--d:2.3s;--x:16px" transform="translate(262 152)" fill="#a18cd1" d="M8 14c-4.7-3.3-7.3-5.7-7.3-8.7 0-2 1.7-3.3 3.3-3.3 1.5 0 2.8.9 4 2.3 1.2-1.4 2.5-2.3 4-2.3 1.6 0 3.3 1.3 3.3 3.3 0 3-2.6 5.4-7.3 8.7z"/>
+                                </g>
+                                <!-- know-how card -->
+                                <g filter="url(#st-sh)">
+                                    <rect x="222" y="26" width="86" height="52" rx="12" fill="#fff"/>
+                                    <text x="232" y="44" font-family="Noto Sans JP,sans-serif" font-size="9" font-weight="700" fill="#6a6a7c">配信ノウハウ</text>
+                                    <rect x="232" y="52" width="64" height="5" rx="2.5" fill="#eef1f6"/>
+                                    <rect class="grow" style="--d:.6s;transform-origin:0 50%" x="232" y="52" width="56" height="5" rx="2.5" fill="#0052ff"/>
+                                    <rect x="232" y="63" width="64" height="5" rx="2.5" fill="#eef1f6"/>
+                                    <rect class="grow" style="--d:.8s;transform-origin:0 50%" x="232" y="63" width="44" height="5" rx="2.5" fill="#2bc1ff"/>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="st-body">
+                            <span class="st-num" aria-hidden="true">02</span>
+                            <p class="st-kicker">KNOW-HOW</p>
+                            <h3 class="st-title">現場で培った実践的ノウハウ</h3>
+                            <p class="st-text">代表自身がSNS・ライブ配信の現場で成果を積み重ねてきた経験をもとに、実践的な戦略を提案します。</p>
+                        </div>
+                    </article>
+
+                    <!-- 03 -->
+                    <article class="st-card reveal delay-2">
+                        <div class="st-visual">
+                            <svg viewBox="0 0 320 190" aria-hidden="true">
+                                <defs>
+                                    <radialGradient id="st-ig" cx=".3" cy="1.05" r="1.25"><stop offset="0" stop-color="#feda75"/><stop offset=".3" stop-color="#fa7e1e"/><stop offset=".55" stop-color="#d62976"/><stop offset=".8" stop-color="#962fbf"/><stop offset="1" stop-color="#4f5bd5"/></radialGradient>
+                                    <linearGradient id="st-hub" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#0052ff"/><stop offset="1" stop-color="#2bc1ff"/></linearGradient>
+                                    <filter id="st-sh3" x="-40%" y="-40%" width="180%" height="180%"><feDropShadow dx="0" dy="8" stdDeviation="8" flood-color="#0b1a40" flood-opacity=".18"/></filter>
+                                    <path id="fl1" d="M80 60 C 120 60, 120 96, 160 96"/>
+                                    <path id="fl2" d="M80 136 C 120 136, 120 96, 160 96"/>
+                                    <path id="fl3" d="M160 96 L 236 96"/>
+                                </defs>
+                                <!-- flow lines -->
+                                <g fill="none" stroke="#0052ff" stroke-opacity=".45" stroke-width="2">
+                                    <use href="#fl1" class="flow"/><use href="#fl2" class="flow"/><use href="#fl3" class="flow"/>
+                                </g>
+                                <g fill="#0052ff">
+                                    <circle r="3.5"><animateMotion dur="2.4s" repeatCount="indefinite"><mpath href="#fl1"/></animateMotion></circle>
+                                    <circle r="3.5" fill="#2bc1ff"><animateMotion dur="2.4s" begin="1.2s" repeatCount="indefinite"><mpath href="#fl2"/></animateMotion></circle>
+                                    <circle r="3.5"><animateMotion dur="1.6s" begin=".6s" repeatCount="indefinite"><mpath href="#fl3"/></animateMotion></circle>
+                                </g>
+                                <!-- TikTok -->
+                                <g filter="url(#st-sh3)">
+                                    <rect x="34" y="38" width="46" height="46" rx="12" fill="#111"/>
+                                    <g transform="translate(46 49) scale(.95)"><use href="#tt-glyph" fill="#25F4EE" transform="translate(-.6 -.6)"/><use href="#tt-glyph" fill="#FE2C55" transform="translate(.6 .6)"/><use href="#tt-glyph" fill="#fff"/></g>
+                                </g>
+                                <!-- Instagram -->
+                                <g filter="url(#st-sh3)">
+                                    <rect x="34" y="113" width="46" height="46" rx="12" fill="url(#st-ig)"/>
+                                    <rect x="44" y="123" width="26" height="26" rx="8" fill="none" stroke="#fff" stroke-width="3"/>
+                                    <circle cx="57" cy="136" r="6" fill="none" stroke="#fff" stroke-width="3"/>
+                                    <circle cx="65" cy="128" r="1.8" fill="#fff"/>
+                                </g>
+                                <!-- hub -->
+                                <circle class="ring" cx="160" cy="96" r="22" fill="none" stroke="#0052ff" stroke-width="1.5"/>
+                                <circle cx="160" cy="96" r="24" fill="url(#st-hub)" filter="url(#st-sh3)"/>
+                                <text x="160" y="100" font-family="Inter,sans-serif" font-size="10" font-weight="800" fill="#fff" text-anchor="middle">gofine</text>
+                                <!-- shop -->
+                                <g filter="url(#st-sh3)">
+                                    <rect x="236" y="66" width="60" height="60" rx="16" fill="#fff"/>
+                                    <path d="M252 86h28l-3 26h-22z" fill="#111"/>
+                                    <path d="M259 86c0-6 3-9 7-9s7 3 7 9" fill="none" stroke="#111" stroke-width="2.6"/>
+                                    <path d="M260 99l4 4 8-8" fill="none" stroke="#2bc1ff" stroke-width="2.6" stroke-linecap="round" stroke-linejoin="round"/>
+                                </g>
+                                <g font-family="Noto Sans JP,sans-serif" font-size="10.5" font-weight="700" fill="#3b4a66" text-anchor="middle">
+                                    <text x="57" y="24">SNS</text><text x="57" y="178">認知拡大</text>
+                                    <text x="266" y="150">EC</text><text x="266" y="166">販売促進</text>
+                                </g>
+                            </svg>
+                        </div>
+                        <div class="st-body">
+                            <span class="st-num" aria-hidden="true">03</span>
+                            <p class="st-kicker">SNS × EC</p>
+                            <h3 class="st-title">SNSとECの横断的な支援</h3>
+                            <p class="st-text">SNSによる認知拡大からECでの販売促進まで、事業の成長につながる施策を総合的にサポートします。</p>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+
+        <!-- ④ OUR MISSION -->
+        <section class="sec sec-mission" id="mission">
+            <div class="m-glow g1" aria-hidden="true"></div>
+            <div class="m-glow g2" aria-hidden="true"></div>
+            <div class="container">
+                <div class="sec-head reveal">
+                    <p class="sec-label"><span class="num">03</span><span class="bar"></span>MISSION</p>
+                    <h2 class="sec-title"><span class="en"><span>OUR MISSION</span></span></h2>
+                </div>
+                <div class="m-wrap">
+                    <p class="m-catch reveal">
+                        <span class="ln"><span>才能に、限界はない。</span></span>
+                        <span class="ln"><span>限界があるのは、<span class="em">仕組み</span>だ。</span></span>
+                    </p>
+                    <div class="m-divider" aria-hidden="true"></div>
+                    <div class="m-body">
+                        <p class="reveal">才能が埋もれるのは、能力が足りないからではない。<br>努力が報われないのは、挑戦が足りないからとは限らない。<br>その可能性を活かす環境や、成果につながる仕組みが、<br>整っていないだけのこともある。</p>
+                        <p class="reveal">私たちは、新たな発想と実践によって、その壁を取り払っていきます。<br>人や企業が抱える課題に、正面から向き合う。<br>一時的な成功ではなく、成長し続けられる仕組みをつくる。</p>
+                    </div>
+                    <p class="m-closing reveal"><span class="nw">人の可能性を、</span><span class="nw">仕組みの限界で終わらせない。</span></p>
+                    <p class="m-sign reveal">それが、gofineの使命です。</p>
+                    <div class="reveal"><a href="message.html" class="btn-ghost">代表の言葉を読む<span aria-hidden="true">→</span></a></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- ⑤ お問い合わせ -->
+        <section class="sec sec-contact" id="contact">
+            <div class="container">
+                <div class="sec-head reveal">
+                    <p class="sec-label"><span class="num">04</span><span class="bar"></span>CONTACT</p>
+                    <h2 class="sec-title"><span class="en"><span>Contact</span></span><span class="ja">お問い合わせ</span></h2>
+                </div>
+                <div class="ct-grid">
+                    <div class="ct-info reveal">
+                        <h3>まずは、お気軽に<br>ご相談ください。</h3>
+                        <p>TikTok Shop・EC事業に関するご相談を承っております。下記フォームよりお気軽にお問い合わせください。</p>
+                        <ul class="ct-list">
+                            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>TikTokオークションを始めたい</li>
+                            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>TikTok Shopでの販売を伸ばしたい</li>
+                            <li><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"><path d="M20 6 9 17l-5-5"/></svg>SNSの運用・集客を強化したい</li>
+                        </ul>
+                    </div>
+                    <div class="ct-form reveal delay-1">
+                        <form action="https://formspree.io/f/xkoplbgb" method="POST" class="contact-form" id="contact-form">
+                            <input type="hidden" name="_subject" value="【HP】gofine お問い合わせ">
+                            <input type="hidden" name="流入元" value="gofine ホームページ">
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="company-name">会社名・団体名<span class="req">必須</span></label>
+                                    <input type="text" id="company-name" name="company" class="form-input" placeholder="例：株式会社サンプル" autocomplete="organization" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="name">お名前<span class="req">必須</span></label>
+                                    <input type="text" id="name" name="name" class="form-input" placeholder="例：山田 太郎" autocomplete="name" required>
+                                </div>
+                            </div>
+                            <div class="form-row">
+                                <div class="form-group">
+                                    <label for="email">メールアドレス<span class="req">必須</span></label>
+                                    <input type="email" id="email" name="email" class="form-input" placeholder="例：info@example.com" autocomplete="email" required>
+                                </div>
+                                <div class="form-group">
+                                    <label for="tel">電話番号<span class="req">必須</span></label>
+                                    <input type="tel" id="tel" name="電話番号" class="form-input" placeholder="例：090-0000-0000" autocomplete="tel" inputmode="tel" pattern="[0-9０-９\-－ー+ ]{10,16}" title="電話番号を入力してください（例：090-0000-0000）" required>
+                                </div>
+                            </div>
+
+                            <fieldset class="form-group">
+                                <legend>ご相談のサービス<span class="req">必須</span></legend>
+                                <div class="choice-grid cols-3" id="svc-choice">
+                                    <label class="choice"><input type="radio" name="ご相談のサービス" value="SNSマーケティング支援" data-svc="sns" required><span>SNSマーケティング支援<small>TikTok・Instagramの運用・集客</small></span></label>
+                                    <label class="choice"><input type="radio" name="ご相談のサービス" value="EC事業支援（TikTok Shop・オークション）" data-svc="ec"><span>EC事業支援<small>TikTok Shop・LIVEオークション</small></span></label>
+                                    <label class="choice"><input type="radio" name="ご相談のサービス" value="その他" data-svc="other"><span>その他<small>内容は下の欄にご記入ください</small></span></label>
+                                </div>
+                            </fieldset>
+
+                            <!-- EC事業支援を選んだときだけ表示 -->
+                            <div class="cond" data-show="ec"><div class="cond-inner">
+                                <div class="cond-box">
+                                    <p class="cond-title"><span>EC</span>TikTok Shopについて教えてください</p>
+                                    <div class="form-row">
+                                        <div class="form-group">
+                                            <label for="status">TikTok Shopの出店状況<span class="req">必須</span></label>
+                                            <div class="select-wrap"><select id="status" name="出店状況" class="form-input" required>
+                                                <option value="">選択してください</option>
+                                                <option>出店済み（AMなし）</option>
+                                                <option>出店済み（AMあり）</option>
+                                                <option>出店準備中</option>
+                                                <option>未出店・検討中</option>
+                                            </select></div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="kobutsu">古物商許可証<span class="opt">任意</span></label>
+                                            <div class="select-wrap"><select id="kobutsu" name="古物商許可証" class="form-input">
+                                                <option value="">選択してください</option>
+                                                <option>取得済み</option>
+                                                <option>申請中</option>
+                                                <option>未取得</option>
+                                                <option>わからない</option>
+                                            </select></div>
+                                        </div>
+                                    </div>
+                                    <div class="form-group">
+                                        <label for="cat">主な商材<span class="opt">任意</span></label>
+                                        <div class="select-wrap"><select id="cat" name="商材" class="form-input">
+                                            <option value="">選択してください</option>
+                                            <option>ポケモンカード・トレカ</option>
+                                            <option>ハイブランドバッグ・ブランド品</option>
+                                            <option>ホビー・玩具</option>
+                                            <option>アパレル</option>
+                                            <option>その他</option>
+                                        </select></div>
+                                    </div>
+                                    <fieldset class="form-group">
+                                        <legend>ご相談内容<span class="opt">複数選択可</span></legend>
+                                        <div class="choice-grid">
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="LIVEオークションの始め方"><span>LIVEオークションの始め方</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="AMについて"><span>AM（担当者）について</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="古物商許可証について"><span>古物商許可証について</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="運用サポート"><span>運用サポート</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="その他"><span>その他</span></label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div></div>
+
+                            <!-- SNSマーケティング支援を選んだときだけ表示 -->
+                            <div class="cond" data-show="sns"><div class="cond-inner">
+                                <div class="cond-box">
+                                    <p class="cond-title"><span>SNS</span>ご相談内容を選んでください</p>
+                                    <fieldset class="form-group">
+                                        <legend>ご相談内容<span class="opt">複数選択可</span></legend>
+                                        <div class="choice-grid">
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="SNSアカウントの運用"><span>SNSアカウントの運用</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="SNSでの集客・認知拡大"><span>SNSでの集客・認知拡大</span></label>
+                                            <label class="choice is-check"><input type="checkbox" name="相談内容" value="その他"><span>その他</span></label>
+                                        </div>
+                                    </fieldset>
+                                </div>
+                            </div></div>
+
+                            <div class="form-group">
+                                <label for="message-text">お問い合わせ内容<span class="req">必須</span></label>
+                                <textarea id="message-text" name="message" class="form-textarea" placeholder="現在の状況やご質問などをご自由にお書きください" required></textarea>
+                            </div>
+                            <div class="form-status" id="form-status" role="status" aria-live="polite"></div>
+                            <button type="submit" class="btn-submit" id="form-submit">送信する<span aria-hidden="true">→</span></button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-logo">gofine</div>
+            <nav class="footer-nav" aria-label="フッターメニュー">
+                <a href="service.html">事業内容</a><a href="message.html">代表の言葉</a><a href="company.html">会社概要</a><a href="#contact">お問い合わせ</a>
+            </nav>
+            <p class="copyright">&copy; gofine LLC. All Rights Reserved.</p>
+        </div>
+    </footer>
+    <script src="main.js"></script>
+    <script>
+        // ===== Contact form: show fields depending on the selected service =====
+        (function () {
+            const form = document.getElementById('contact-form');
+            const conds = [...form.querySelectorAll('.cond')];
+            const msg = document.getElementById('message-text');
+            const placeholders = { sns: '現在のアカウント状況や、目標・お悩みなどをご記入ください', ec: '現在の状況やご質問などをご自由にお書きください', other: 'ご相談内容をご記入ください' };
+            const apply = () => {
+                const sel = form.querySelector('input[name="ご相談のサービス"]:checked');
+                const svc = sel ? sel.dataset.svc : null;
+                conds.forEach(c => {
+                    const open = c.dataset.show === svc;
+                    c.classList.toggle('is-open', open);
+                    c.toggleAttribute('inert', !open);
+                    c.querySelectorAll('input, select, textarea').forEach(el => { el.disabled = !open; });
+                });
+                msg.placeholder = placeholders[svc] || '現在の状況やご質問などをご自由にお書きください';
+            };
+            form.addEventListener('change', e => { if (e.target.name === 'ご相談のサービス') apply(); });
+            form.addEventListener('reset', () => setTimeout(apply, 0));
+            apply();
+        })();
+
+        // ===== Contact form (Formspree) =====
+        (function () {
+            const form = document.getElementById('contact-form');
+            const status = document.getElementById('form-status');
+            const btn = document.getElementById('form-submit');
+            const btnHTML = btn.innerHTML;
+            const show = (type, msg) => { status.className = 'form-status is-' + type; status.textContent = msg; };
+            form.addEventListener('submit', async (e) => {
+                e.preventDefault();
+                btn.disabled = true; btn.textContent = '送信中…';
+                status.className = 'form-status'; status.textContent = '';
+                try {
+                    const res = await fetch(form.action, { method: 'POST', body: new FormData(form), headers: { 'Accept': 'application/json' } });
+                    if (res.ok) { form.reset(); show('success', 'お問い合わせを送信しました。内容を確認のうえ、担当者よりご連絡いたします。'); }
+                    else { show('error', '送信できませんでした。入力内容をご確認のうえ、時間をおいて再度お試しください。'); }
+                } catch (err) {
+                    show('error', '通信エラーが発生しました。インターネット接続をご確認のうえ、再度お試しください。');
+                } finally { btn.disabled = false; btn.innerHTML = btnHTML; }
+            });
+        })();
+
+        // ===== Arriving from other pages with #contact / #service =====
+        if ('scrollRestoration' in history) history.scrollRestoration = 'manual';
+        window.addEventListener('load', () => {
+            const map = { '#business': '#service', '#strength': '#strength', '#message': '#mission' };
+            const hash = map[location.hash] || location.hash;
+            const target = hash && document.querySelector(hash);
+            if (!target) return;
+            const go = () => window.scrollTo({ top: target.getBoundingClientRect().top + window.scrollY - (parseInt(getComputedStyle(document.documentElement).getPropertyValue('--header-height')) || 80), behavior: 'instant' });
+            setTimeout(go, 50); setTimeout(go, 400);
+        });
+    </script>
+</body>
+</html>
